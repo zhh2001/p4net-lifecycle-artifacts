@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" type="device">
+  <diagram name="system-architecture" id="system-architecture">
+    <mxGraphModel dx="1500" dy="930" grid="1" gridSize="10" page="0" pageWidth="1500" pageHeight="930" background="#FFFFFF" math="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sdk" value="" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#FAFCFE;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="1050" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="research" value="" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#FAFAFA;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="170" width="300" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-title" value="Released p4net SDK (v1.8.0)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="180" width="1000" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="research-title" value="Companion research&#10;toolchain" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="185" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="user" value="User workflow: Python API / CLI" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="45" width="900" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="topology" value="Topology model and validation" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#DCEAF6;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="900" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="network" value="Network lifecycle coordinator&#10;start / stop; astart / astop" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#DCEAF6;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="385" width="900" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="compiler" value="Compiler and cache&#10;preprocess, key, publish" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="clients" value="P4Runtime clients&#10;synchronous / async" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wrappers" value="Runtime wrappers&#10;BMv2, namespaces, veth" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="740" y="550" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bmv2" value="BMv2 processes&#10;program JSON; gRPC control" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#FFF0DA;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="780" width="450" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="linux" value="Linux resources&#10;host namespaces and veth endpoints" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#FFF0DA;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="780" width="450" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="tasks" value="Workload and&#10;fault controller" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="300" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="observer" value="Timing, sampling&#10;and stage hooks" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="520" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="user-topology" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.15;exitY=1;entryX=.15;entryY=0;" edge="1" parent="1" source="user" target="topology">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="topology-network" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="topology" target="network">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="network-compiler" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.15;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="network" target="compiler">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="network-clients" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="network" target="clients">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="network-wrappers" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.85;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="network" target="wrappers">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="artifacts" value="artifacts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.3;entryY=0;" edge="1" parent="1" source="compiler" target="bmv2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="control" value="P4Runtime" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.8;entryY=0;" edge="1" parent="1" source="clients" target="bmv2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="735" />
+              <mxPoint x="460" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="resources" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.5;exitY=1;entryX=.5;entryY=0;" edge="1" parent="1" source="wrappers" target="linux">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="launch" value="launch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;exitX=.2;exitY=1;entryX=.9;entryY=0;" edge="1" parent="1" source="wrappers" target="bmv2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="792" y="755" />
+              <mxPoint x="505" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="invoke" value="invoke" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;entryX=1;entryY=.5;" edge="1" parent="1" source="tasks" target="network">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="observe" value="observe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontFamily=Times New Roman;fontSize=19;fontColor=#233746;strokeColor=#233746;strokeWidth=1.7;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;entryX=1;entryY=.5;" edge="1" parent="1" source="observer" target="wrappers">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Solid: configuration / control / resources    |    Dashed: companion evaluation" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="890" width="1320" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

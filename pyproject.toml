@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "p4net-lifecycle-artifacts"
+version = "0.1.0"
+description = "Offline reproduction of p4net lifecycle experiment results"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{name = "The p4net Authors"}]
+dependencies = []
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.6"]
+dev = ["pytest>=8", "ruff>=0.9", "mypy>=1.13", "build>=1.2"]
+
+[project.scripts]
+p4net-lifecycle = "lifecycle_artifacts.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/zhh2001/p4net-lifecycle-artifacts"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lifecycle_artifacts"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "data", "protocol", "docs", "figures", "README.md", "LICENSE", "DATA_LICENSE", "CITATION.cff", "pyproject.toml"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "RUF"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.10"
+check_untyped_defs = true
+files = ["src/lifecycle_artifacts"]
+
+[[tool.mypy.overrides]]
+module = ["matplotlib", "matplotlib.*"]
+ignore_missing_imports = true

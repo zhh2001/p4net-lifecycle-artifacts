@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Cite this repository and its versioned archive when using the data or analysis."
+type: dataset
+title: "p4net lifecycle evaluation artifacts"
+authors:
+  - family-names: Zhang
+    given-names: Henghua
+    orcid: "https://orcid.org/0009-0005-9456-8936"
+  - family-names: Yang
+    given-names: Tiancheng
+    orcid: "https://orcid.org/0009-0004-5696-8050"
+  - family-names: Chen
+    given-names: Jue
+    orcid: "https://orcid.org/0000-0001-7508-2635"
+repository-code: "https://github.com/zhh2001/p4net-lifecycle-artifacts"
+url: "https://github.com/zhh2001/p4net-lifecycle-artifacts"
+license: CC-BY-4.0

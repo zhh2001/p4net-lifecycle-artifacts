@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "sha256": {
+    "data/diagnostic/records.json": "0930f006588bb752c66cfea6894375c648ecd90da97ffc5a89a88737f25dcd0a",
+    "data/expected-comparisons.json": "a2c1b1d37b3275dcb6505ce28d9f24085b0e638199a63c0d7a42294eb06628a5",
+    "data/expected-outcomes.json": "36f3a27bde3b605951fbd58463702bc3e9a2b30ea21f9e78780af59f2200d26f",
+    "data/formal/process-birth.json": "acc7cae33fe9986cc9ba6e8d159d857a33d155000e3aba2d300f9e6103b2df9e",
+    "data/formal/records.json": "67dae6ba9a566f896c2fa19300f060a1fd0a05454506ddc10be824858a315193",
+    "data/observer/records.json": "ff2a22bfcb9bbe566d510919a3c55884194161bb1d3e32ce6ac96e6116b3cabb",
+    "data/source-identities.json": "58063d72854121f462715663bfbd9ca0dc7b07acddf9a18412613ce431cef9b8",
+    "figures/reference/birth-diagnostics.pdf": "c1fd843e2b3cd5f3422fb407db5ae6e6e3f75ea287134f82b588aa80cd9db431",
+    "figures/reference/birth-diagnostics.png": "aabe068d7541643dafcd9e56d42d8c0611f2ddbdd4d38f60216184325f0af56e",
+    "figures/reference/control-teardown.drawio": "08a76ecf5621c22f56a60920f13bfe238f45afdf99c9ee9cc77dc18f86948028",
+    "figures/reference/control-teardown.pdf": "b7b110dd640184361de527bad69cf532b30e89b1ee72c0b8bfa009b6d9f209dc",
+    "figures/reference/control-teardown.png": "c659ea738122780c9f8a7a11f9193670539d10ebc301074ba16efcee99385882",
+    "figures/reference/fault-outcomes-vector.pdf": "0345ac28f4cff425a85a367b2418588834984a19fbc5a0fdc4ce9aaa555ed01d",
+    "figures/reference/fault-outcomes-vector.png": "ec13cefe35c43def8cc465a264925bcf93cdb845bcfa0d0fa823d053716e6af4",
+    "figures/reference/resource-lifecycle.drawio": "9ccefd94f44b81d26a7e43076d8a5390d17c80898c1bebfa5a1ffd79ff690cb3",
+    "figures/reference/resource-lifecycle.pdf": "e2f8b1be351f826427be1ebfe2e7fe5b3e139d4dd9fccf44ca045581427e6fd1",
+    "figures/reference/resource-lifecycle.png": "235414e0aa01cbdd0f6448369f23b04fa7eb1108f499b03f13a586b20a3bd10a",
+    "figures/reference/scale-lifecycle.pdf": "2a536221465976362af8bdf065ab6429df5b6dd1e2e97737a59b14565874297b",
+    "figures/reference/scale-lifecycle.png": "d27539682bf1802473a1b2f7c36407e3aff050f49a9a717a4552dd331bf1bc5f",
+    "figures/reference/scale-resources.pdf": "5a371c0da253f4513aed939e3e50fba74c9387f8cee24422acef2aa09fb64202",
+    "figures/reference/scale-resources.png": "1bbd51a60809a76428d634700c7de12e44b905c5bcba60c565bd697ef339f608",
+    "figures/reference/system-architecture.drawio": "874c1de6c73a5435ab31fe555b753011a3084ce42ad263e48259c83a73eae075",
+    "figures/reference/system-architecture.pdf": "682db03158b137fee4c099b52563d66b135c19f2666acabad6fa40809a327368",
+    "figures/reference/system-architecture.png": "da49b79fda37f946f4b6884298bde6acedcff6e7415ddc8a25cfa8b3aa66d1b1",
+    "protocol/comparisons.json": "19cb1e114c53776f852a88ce8fc9612c345703b13bc35287d22a54d34d57c8de",
+    "protocol/design.json": "9487a0e8e9d5356f51c2c08ce807d28396a9c60b615564e8804d312b4dc2a972"
+  }
+}

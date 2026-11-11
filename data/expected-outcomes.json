@@ -1,0 +1,578 @@
+[
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "drop-control",
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "drop-control",
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 0,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 30,
+      "initial_ordinary_cleanup_clean": 0,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "drop-control",
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "invalid-p4",
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "invalid-p4",
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "invalid-p4",
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "kill-bmv2",
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "kill-bmv2",
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "kill-bmv2",
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "normal-control",
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 0,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "normal-control",
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 0,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "normal-control",
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 0,
+      "initial_ready": 30,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "occupied-grpc",
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "occupied-grpc",
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "occupied-grpc",
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "sigint-startup",
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 2,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 30,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "sigint-startup",
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 0,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 0,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "fault",
+    "switches": 4,
+    "fault": "sigint-startup",
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 16,
+      "native_ok": 30,
+      "framework_complete": 30,
+      "condition_established": 30,
+      "recovery_success": 30,
+      "injection_delivered": 30,
+      "initial_ready": 0,
+      "initial_ordinary_stop_timeout": 0,
+      "initial_ordinary_cleanup_clean": 16,
+      "restart_ready": 30,
+      "restart_ordinary_stop_timeout": 0,
+      "restart_ordinary_cleanup_clean": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 1,
+    "fault": null,
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 1,
+    "fault": null,
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 1,
+    "fault": null,
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 16,
+    "fault": null,
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 16,
+    "fault": null,
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 16,
+    "fault": null,
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 2,
+    "fault": null,
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 2,
+    "fault": null,
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 2,
+    "fault": null,
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 4,
+    "fault": null,
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 4,
+    "fault": null,
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 4,
+    "fault": null,
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 8,
+    "fault": null,
+    "tool": "p4net",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 8,
+    "fault": null,
+    "tool": "p4utils",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  },
+  {
+    "workload": "scale",
+    "switches": 8,
+    "fault": null,
+    "tool": "tutorial-components",
+    "planned_units": 30,
+    "counts": {
+      "protocol_completed": 30,
+      "performance_eligible": 30,
+      "native_ok": 30
+    }
+  }
+]

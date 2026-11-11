@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "allocation": {
+    "seed": 20261027,
+    "sessions": 3,
+    "repetitions_per_session": 10,
+    "repetitions_per_condition": 30,
+    "session_role": "blocking-factor-not-an-additional-condition",
+    "randomization": "sha256-ranked labels within session/repetition/condition blocks",
+    "parent_units": 990,
+    "worker_executions": 1530,
+    "scale_units": 450,
+    "fault_control_units": 540,
+    "switch_counts": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "fault_switches": 4,
+    "parents_per_session": 330,
+    "workers_per_session": 510
+  },
+  "measurement": {
+    "duration_ns": 10000000000,
+    "interval_ns": 100000000,
+    "scheduled_endpoints": 101,
+    "targets": "One worker and every expected BMv2 identity; host helper processes remain outside these role metrics",
+    "clock": "Observer monotonic nanoseconds, with the retained boot and clock domain",
+    "cpu": "Sum process CPU tick deltas divided by each actual observed span; 100 percent represents one CPU core",
+    "memory": "Time-weighted trapezoidal RSS and PSS mean per process, then sum by role",
+    "overhead_cost_subtracted": false,
+    "acceptable_overhead_threshold": null,
+    "late_samples": "Retain actual times, missed deadlines and overrun; incomplete windows have no primary resource estimate",
+    "latency_metric_boundaries": {
+      "task_to_ready_ns": [
+        "worker_launch",
+        "ready_received"
+      ],
+      "restart_task_to_ready_ns": [
+        "restart_launch",
+        "restart_ready_received"
+      ],
+      "stop_to_exit_ns": [
+        "stop_request",
+        "worker_exit"
+      ],
+      "stop_to_audit_ns": [
+        "stop_request",
+        "ordinary_audit_end"
+      ],
+      "exit_to_audit_ns": [
+        "worker_exit",
+        "ordinary_audit_end"
+      ],
+      "ordinary_audit_ns": [
+        "ordinary_audit_start",
+        "ordinary_audit_end"
+      ],
+      "fault_to_restart_ready_ns": [
+        "intervention_applied",
+        "restart_ready_received"
+      ],
+      "initial_launch_to_restart_ready_ns": [
+        "worker_launch",
+        "restart_ready_received"
+      ],
+      "stop_to_restart_ready_ns": [
+        "stop_request",
+        "restart_ready_received"
+      ]
+    },
+    "resource_metrics": [
+      "idle_worker_cpu_percent",
+      "idle_worker_rss_bytes",
+      "idle_worker_pss_bytes",
+      "idle_bmv2_cpu_percent",
+      "idle_bmv2_rss_bytes",
+      "idle_bmv2_pss_bytes",
+      "restart_idle_worker_cpu_percent",
+      "restart_idle_worker_rss_bytes",
+      "restart_idle_worker_pss_bytes",
+      "restart_idle_bmv2_cpu_percent",
+      "restart_idle_bmv2_rss_bytes",
+      "restart_idle_bmv2_pss_bytes"
+    ]
+  },
+  "analysis": {
+    "selection": "first-attempt",
+    "retry_analysis": "separate supplementary records",
+    "completion_denominator": "Every planned first attempt, including failures, timeouts and blocked outcomes",
+    "completion_interval": "Clopper-Pearson exact",
+    "completion_reference": "Wilson score",
+    "completion_gate": "All planned units in the reported population must be terminal",
+    "completion_model": "Common-probability Bernoulli model within each reported population",
+    "pairing": "Same phase, fixed session, repetition, scale or fault, build mode and configuration",
+    "estimand": "Median of within-block paired differences",
+    "direction": "Canonical alphabetical left tool minus right tool",
+    "primary_method": "rank",
+    "primary_interval": "Conservative Poisson-binomial rank interval",
+    "confidence": 0.95,
+    "session_scheme": "fixed-session",
+    "weighting": "Observed complete-case session counts divided by their total",
+    "assumption": "Independent paired differences conditional on the fixed design and observed counts",
+    "scope": "Pointwise condition-specific intervals",
+    "multiplicity_adjustment": null,
+    "supplementary_bootstrap_schemes": [
+      "fixed-session",
+      "hierarchical-session"
+    ],
+    "resamples": 10000,
+    "seed": 20261029,
+    "metrics": [
+      "task_to_ready_ns",
+      "restart_task_to_ready_ns",
+      "stop_to_exit_ns",
+      "stop_to_audit_ns",
+      "exit_to_audit_ns",
+      "ordinary_audit_ns",
+      "fault_to_restart_ready_ns",
+      "initial_launch_to_restart_ready_ns",
+      "stop_to_restart_ready_ns",
+      "idle_worker_cpu_percent",
+      "idle_worker_rss_bytes",
+      "idle_worker_pss_bytes",
+      "idle_bmv2_cpu_percent",
+      "idle_bmv2_rss_bytes",
+      "idle_bmv2_pss_bytes",
+      "restart_idle_worker_cpu_percent",
+      "restart_idle_worker_rss_bytes",
+      "restart_idle_worker_pss_bytes",
+      "restart_idle_bmv2_cpu_percent",
+      "restart_idle_bmv2_rss_bytes",
+      "restart_idle_bmv2_pss_bytes"
+    ],
+    "performance_eligibility": "Apply the pinned aggregate gate to the whole episode: either initial or restart ordinary-stop timeout or incomplete ordinary cleanup excludes every primary performance metric; retain the per-metric missing-value rules",
+    "record_exclusions": [
+      "not-completed",
+      "invalid-native-outcome",
+      "invalid-measurement-issues",
+      "ordinary-stop-timeout",
+      "ordinary-cleanup-incomplete",
+      "measurement-issues"
+    ],
+    "missingness": "Retain every reason and eligible count; no imputation, replacement of failed first attempts, or threshold-based outlier removal",
+    "qualification_data": "Excluded from formal and manuscript statistics",
+    "ordinary_phase_fields": [
+      "ordinary_stop_timeout",
+      "ordinary_cleanup_clean",
+      "restart_ordinary_stop_timeout",
+      "restart_ordinary_cleanup_clean"
+    ]
+  },
+  "clock_ticks": 100,
+  "observer_profiles": [
+    "B",
+    "T",
+    "S"
+  ],
+  "diagnostic_profiles": [
+    "native",
+    "off",
+    "stages",
+    "detail"
+  ],
+  "collection_order": "Scale runs precede fault/control episodes within each formal session.",
+  "bootstrap_seed": 20261029,
+  "bootstrap_resamples": 10000
+}

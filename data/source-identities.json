@@ -1,0 +1,34 @@
+{
+  "record_type": "source-content-identities",
+  "sources": [
+    {
+      "label": "validation-formal-session3/session-snapshot.json",
+      "sha256": "4a64e0bb6e29877b628957baf25cf208fc47f3bcc6dee8ca3a1821b99eab9516"
+    },
+    {
+      "label": "validation-formal-analysis/inference.json",
+      "sha256": "b5f864638753e6c849c80daf9b96f5ca53ca37e0772a0c509b3bdc3ca90071e7"
+    },
+    {
+      "label": "validation-observer-calibration-session3/session-snapshot.json",
+      "sha256": "f7565e4a334be25dde66ef76ec38491f18da138e96f977021885e35f43b9c203"
+    },
+    {
+      "label": "validation-observer-calibration-analysis/analysis.json",
+      "sha256": "91021cb6854871a97d4f9e3194e87088fac3068c119e2129317d62df605d3173"
+    },
+    {
+      "label": "validation-diagnostic-overhead-analysis/snapshot.json",
+      "sha256": "af57028ad0de50be0ee0efa6fce6def1e762e2bc9eb59c0a5ce1ed7de56da68f"
+    },
+    {
+      "label": "validation-diagnostic-overhead-analysis/inference.json",
+      "sha256": "e26ef084533bff3cb920d3524659ef663a421b7fca340b56145e4cc1dd0fcb61"
+    },
+    {
+      "label": "validation-lifecycle-mechanisms/diagnostics.json",
+      "sha256": "908769792196ca3c5c48ec6e3739ab3400308049f5188ba6b76a8edfbabdc672"
+    }
+  ],
+  "export": "Task observations and primary/supplementary inference targets; operational paths and process identities are omitted."
+}

@@ -1,0 +1,5402 @@
+[
+  {
+    "id": "observer-s01-n01-b01-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b01-p4net",
+    "sequence": 8,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11002605775,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23072768,
+      "observer_pss_bytes": 14622720
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b01-p4net",
+    "sequence": 7,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11134037334,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24535040,
+      "observer_pss_bytes": 16016384
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b01-p4net",
+    "sequence": 9,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11049409889,
+      "observer_cpu_seconds": 0.0,
+      "observer_rss_bytes": 23060480,
+      "observer_pss_bytes": 14625792
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b01-p4utils",
+    "sequence": 6,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11817319325,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23048192,
+      "observer_pss_bytes": 14633984
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b01-p4utils",
+    "sequence": 5,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11846330387,
+      "observer_cpu_seconds": 0.36,
+      "observer_rss_bytes": 24649728,
+      "observer_pss_bytes": 16117760
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b01-p4utils",
+    "sequence": 4,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11976678694,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23109632,
+      "observer_pss_bytes": 14649344
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b01-tutorial-components",
+    "sequence": 2,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11177573456,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23080960,
+      "observer_pss_bytes": 14627840
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b01-tutorial-components",
+    "sequence": 1,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11431813388,
+      "observer_cpu_seconds": 0.34,
+      "observer_rss_bytes": 24457216,
+      "observer_pss_bytes": 16004096
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b01-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b01-tutorial-components",
+    "sequence": 3,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11170649808,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23060480,
+      "observer_pss_bytes": 14619648
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b02-p4net",
+    "sequence": 82,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 10987513104,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23171072,
+      "observer_pss_bytes": 14622720
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b02-p4net",
+    "sequence": 83,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11065684246,
+      "observer_cpu_seconds": 0.41,
+      "observer_rss_bytes": 24387584,
+      "observer_pss_bytes": 15931392
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b02-p4net",
+    "sequence": 84,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11032528539,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23068672,
+      "observer_pss_bytes": 14593024
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b02-p4utils",
+    "sequence": 19,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11876264134,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23052288,
+      "observer_pss_bytes": 14607360
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b02-p4utils",
+    "sequence": 20,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11790055372,
+      "observer_cpu_seconds": 0.34,
+      "observer_rss_bytes": 24432640,
+      "observer_pss_bytes": 15960064
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b02-p4utils",
+    "sequence": 21,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11809412584,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23015424,
+      "observer_pss_bytes": 14594048
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b02-tutorial-components",
+    "sequence": 80,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11174210551,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23085056,
+      "observer_pss_bytes": 14612480
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b02-tutorial-components",
+    "sequence": 81,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11154401994,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24453120,
+      "observer_pss_bytes": 15977472
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b02-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b02-tutorial-components",
+    "sequence": 79,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11207836595,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23093248,
+      "observer_pss_bytes": 14619648
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b03-p4net",
+    "sequence": 66,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11044887837,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23040000,
+      "observer_pss_bytes": 14588928
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b03-p4net",
+    "sequence": 65,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11046996456,
+      "observer_cpu_seconds": 0.43,
+      "observer_rss_bytes": 24539136,
+      "observer_pss_bytes": 15995904
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b03-p4net",
+    "sequence": 64,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11022351341,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23089152,
+      "observer_pss_bytes": 14621696
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b03-p4utils",
+    "sequence": 57,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11799266485,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23199744,
+      "observer_pss_bytes": 14656512
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b03-p4utils",
+    "sequence": 55,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11825193098,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24481792,
+      "observer_pss_bytes": 15975424
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b03-p4utils",
+    "sequence": 56,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11783448726,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23158784,
+      "observer_pss_bytes": 14646272
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b03-tutorial-components",
+    "sequence": 54,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11229161757,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23048192,
+      "observer_pss_bytes": 14598144
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b03-tutorial-components",
+    "sequence": 53,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11212682628,
+      "observer_cpu_seconds": 0.39,
+      "observer_rss_bytes": 24424448,
+      "observer_pss_bytes": 15967232
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b03-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b03-tutorial-components",
+    "sequence": 52,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11186505815,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23068672,
+      "observer_pss_bytes": 14593024
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b04-p4net",
+    "sequence": 42,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11108769822,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 22990848,
+      "observer_pss_bytes": 14579712
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b04-p4net",
+    "sequence": 40,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11161501339,
+      "observer_cpu_seconds": 0.4,
+      "observer_rss_bytes": 24502272,
+      "observer_pss_bytes": 15991808
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b04-p4net",
+    "sequence": 41,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11037943052,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 22986752,
+      "observer_pss_bytes": 14584832
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b04-p4utils",
+    "sequence": 32,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11806425484,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23044096,
+      "observer_pss_bytes": 14587904
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b04-p4utils",
+    "sequence": 31,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11810775570,
+      "observer_cpu_seconds": 0.39,
+      "observer_rss_bytes": 24420352,
+      "observer_pss_bytes": 15945728
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b04-p4utils",
+    "sequence": 33,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11793078280,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23195648,
+      "observer_pss_bytes": 14653440
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b04-tutorial-components",
+    "sequence": 85,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11198757240,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23080960,
+      "observer_pss_bytes": 14607360
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b04-tutorial-components",
+    "sequence": 86,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11205384029,
+      "observer_cpu_seconds": 0.41,
+      "observer_rss_bytes": 24453120,
+      "observer_pss_bytes": 15978496
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b04-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b04-tutorial-components",
+    "sequence": 87,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11192648791,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23085056,
+      "observer_pss_bytes": 14610432
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b05-p4net",
+    "sequence": 59,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11037270748,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23093248,
+      "observer_pss_bytes": 14609408
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b05-p4net",
+    "sequence": 60,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11062428447,
+      "observer_cpu_seconds": 0.42,
+      "observer_rss_bytes": 24416256,
+      "observer_pss_bytes": 15941632
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b05-p4net",
+    "sequence": 58,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11068215453,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23203840,
+      "observer_pss_bytes": 14660608
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b05-p4utils",
+    "sequence": 61,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11810474361,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23134208,
+      "observer_pss_bytes": 14631936
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b05-p4utils",
+    "sequence": 63,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11803914695,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24416256,
+      "observer_pss_bytes": 15941632
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b05-p4utils",
+    "sequence": 62,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11815617003,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14601216
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s01-n01-b05-tutorial-components",
+    "sequence": 90,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11159559818,
+      "observer_cpu_seconds": 0.0,
+      "observer_rss_bytes": 23076864,
+      "observer_pss_bytes": 14601216
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s01-n01-b05-tutorial-components",
+    "sequence": 88,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11359683914,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24432640,
+      "observer_pss_bytes": 15964160
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n01-b05-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s01-n01-b05-tutorial-components",
+    "sequence": 89,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11176936714,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23162880,
+      "observer_pss_bytes": 14652416
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b01-p4net",
+    "sequence": 78,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19644233991,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23678976,
+      "observer_pss_bytes": 15232000
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b01-p4net",
+    "sequence": 76,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19872541375,
+      "observer_cpu_seconds": 1.78,
+      "observer_rss_bytes": 30351360,
+      "observer_pss_bytes": 21875712
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b01-p4net",
+    "sequence": 77,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20153246643,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23703552,
+      "observer_pss_bytes": 15252480
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b01-p4utils",
+    "sequence": 44,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17293147553,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23732224,
+      "observer_pss_bytes": 15257600
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b01-p4utils",
+    "sequence": 45,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17320448316,
+      "observer_cpu_seconds": 1.7,
+      "observer_rss_bytes": 30302208,
+      "observer_pss_bytes": 21844992
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b01-p4utils",
+    "sequence": 43,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17258914201,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23814144,
+      "observer_pss_bytes": 15304704
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b01-tutorial-components",
+    "sequence": 69,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23776265469,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23736320,
+      "observer_pss_bytes": 15259648
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b01-tutorial-components",
+    "sequence": 67,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23852806315,
+      "observer_cpu_seconds": 1.7,
+      "observer_rss_bytes": 30441472,
+      "observer_pss_bytes": 21925888
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b01-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b01-tutorial-components",
+    "sequence": 68,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24064582694,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23748608,
+      "observer_pss_bytes": 15273984
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b02-p4net",
+    "sequence": 38,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19667250253,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23748608,
+      "observer_pss_bytes": 15273984
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b02-p4net",
+    "sequence": 39,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19997329772,
+      "observer_cpu_seconds": 1.67,
+      "observer_rss_bytes": 30334976,
+      "observer_pss_bytes": 21885952
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b02-p4net",
+    "sequence": 37,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19816851795,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23863296,
+      "observer_pss_bytes": 15301632
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b02-p4utils",
+    "sequence": 26,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17325644559,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23683072,
+      "observer_pss_bytes": 15208448
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b02-p4utils",
+    "sequence": 25,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17380819720,
+      "observer_cpu_seconds": 1.64,
+      "observer_rss_bytes": 30318592,
+      "observer_pss_bytes": 21851136
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b02-p4utils",
+    "sequence": 27,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17281835086,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23699456,
+      "observer_pss_bytes": 15225856
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b02-tutorial-components",
+    "sequence": 73,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23895015499,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23728128,
+      "observer_pss_bytes": 15264768
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b02-tutorial-components",
+    "sequence": 75,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23758334214,
+      "observer_cpu_seconds": 1.71,
+      "observer_rss_bytes": 30314496,
+      "observer_pss_bytes": 21885952
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b02-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b02-tutorial-components",
+    "sequence": 74,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23840370830,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23785472,
+      "observer_pss_bytes": 15305728
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b03-p4net",
+    "sequence": 13,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19820023432,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23863296,
+      "observer_pss_bytes": 15306752
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b03-p4net",
+    "sequence": 15,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19633684733,
+      "observer_cpu_seconds": 1.58,
+      "observer_rss_bytes": 32657408,
+      "observer_pss_bytes": 24183808
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b03-p4net",
+    "sequence": 14,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19666348140,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23814144,
+      "observer_pss_bytes": 15303680
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b03-p4utils",
+    "sequence": 22,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17185501264,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23625728,
+      "observer_pss_bytes": 15197184
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b03-p4utils",
+    "sequence": 24,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17317439216,
+      "observer_cpu_seconds": 1.6,
+      "observer_rss_bytes": 30339072,
+      "observer_pss_bytes": 21867520
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b03-p4utils",
+    "sequence": 23,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17105686243,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23715840,
+      "observer_pss_bytes": 15242240
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b03-tutorial-components",
+    "sequence": 35,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23778183821,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23789568,
+      "observer_pss_bytes": 15278080
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b03-tutorial-components",
+    "sequence": 36,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24043712750,
+      "observer_cpu_seconds": 1.73,
+      "observer_rss_bytes": 30330880,
+      "observer_pss_bytes": 21868544
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b03-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b03-tutorial-components",
+    "sequence": 34,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23662079967,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23818240,
+      "observer_pss_bytes": 15310848
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b04-p4net",
+    "sequence": 28,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19900012382,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23740416,
+      "observer_pss_bytes": 15265792
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b04-p4net",
+    "sequence": 29,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20277057054,
+      "observer_cpu_seconds": 1.71,
+      "observer_rss_bytes": 32669696,
+      "observer_pss_bytes": 24207360
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b04-p4net",
+    "sequence": 30,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19754891249,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23707648,
+      "observer_pss_bytes": 15256576
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b04-p4utils",
+    "sequence": 48,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17027431152,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23826432,
+      "observer_pss_bytes": 15283200
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b04-p4utils",
+    "sequence": 47,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17270588158,
+      "observer_cpu_seconds": 1.7,
+      "observer_rss_bytes": 30330880,
+      "observer_pss_bytes": 21854208
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b04-p4utils",
+    "sequence": 46,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17197073781,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23810048,
+      "observer_pss_bytes": 15266816
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b04-tutorial-components",
+    "sequence": 12,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23678776828,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23760896,
+      "observer_pss_bytes": 15288320
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b04-tutorial-components",
+    "sequence": 11,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23977579372,
+      "observer_cpu_seconds": 1.58,
+      "observer_rss_bytes": 30429184,
+      "observer_pss_bytes": 21922816
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b04-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b04-tutorial-components",
+    "sequence": 10,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23805298756,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23740416,
+      "observer_pss_bytes": 15285248
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-p4net-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b05-p4net",
+    "sequence": 18,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19457599481,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23764992,
+      "observer_pss_bytes": 15284224
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-p4net-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b05-p4net",
+    "sequence": 17,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19939334808,
+      "observer_cpu_seconds": 1.61,
+      "observer_rss_bytes": 30359552,
+      "observer_pss_bytes": 21886976
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-p4net-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b05-p4net",
+    "sequence": 16,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19704538227,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23793664,
+      "observer_pss_bytes": 15287296
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-p4utils-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b05-p4utils",
+    "sequence": 72,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17712482977,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23707648,
+      "observer_pss_bytes": 15234048
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-p4utils-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b05-p4utils",
+    "sequence": 70,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17437456659,
+      "observer_cpu_seconds": 1.7,
+      "observer_rss_bytes": 30412800,
+      "observer_pss_bytes": 21899264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-p4utils-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b05-p4utils",
+    "sequence": 71,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17328601915,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23834624,
+      "observer_pss_bytes": 15271936
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-tutorial-components-B",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s01-n16-b05-tutorial-components",
+    "sequence": 50,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23943524216,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23748608,
+      "observer_pss_bytes": 15272960
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-tutorial-components-S",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s01-n16-b05-tutorial-components",
+    "sequence": 49,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23787651457,
+      "observer_cpu_seconds": 1.7,
+      "observer_rss_bytes": 32661504,
+      "observer_pss_bytes": 24199168
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s01-n16-b05-tutorial-components-T",
+    "attempt": 1,
+    "session": 1,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s01-n16-b05-tutorial-components",
+    "sequence": 51,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23713425233,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23891968,
+      "observer_pss_bytes": 15331328
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b01-p4net",
+    "sequence": 157,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11085380574,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23044096,
+      "observer_pss_bytes": 14612480
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b01-p4net",
+    "sequence": 159,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11049529898,
+      "observer_cpu_seconds": 0.43,
+      "observer_rss_bytes": 24424448,
+      "observer_pss_bytes": 15973376
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b01-p4net",
+    "sequence": 158,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11018908034,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23089152,
+      "observer_pss_bytes": 14635008
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b01-p4utils",
+    "sequence": 177,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11930887171,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23130112,
+      "observer_pss_bytes": 14641152
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b01-p4utils",
+    "sequence": 175,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11822507859,
+      "observer_cpu_seconds": 0.36,
+      "observer_rss_bytes": 24420352,
+      "observer_pss_bytes": 15971328
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b01-p4utils",
+    "sequence": 176,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11810178940,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23212032,
+      "observer_pss_bytes": 14670848
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b01-tutorial-components",
+    "sequence": 160,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11189734725,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23179264,
+      "observer_pss_bytes": 14680064
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b01-tutorial-components",
+    "sequence": 161,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11196961712,
+      "observer_cpu_seconds": 0.4,
+      "observer_rss_bytes": 24465408,
+      "observer_pss_bytes": 16009216
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b01-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b01-tutorial-components",
+    "sequence": 162,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11180438415,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14628864
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b02-p4net",
+    "sequence": 169,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 10993814607,
+      "observer_cpu_seconds": 0.0,
+      "observer_rss_bytes": 23035904,
+      "observer_pss_bytes": 14608384
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b02-p4net",
+    "sequence": 170,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11056201522,
+      "observer_cpu_seconds": 0.35,
+      "observer_rss_bytes": 24416256,
+      "observer_pss_bytes": 15967232
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b02-p4net",
+    "sequence": 171,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 10989433158,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23068672,
+      "observer_pss_bytes": 14621696
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b02-p4utils",
+    "sequence": 117,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11776481965,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14627840
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b02-p4utils",
+    "sequence": 116,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11821532536,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24584192,
+      "observer_pss_bytes": 16135168
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b02-p4utils",
+    "sequence": 115,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11797065500,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23064576,
+      "observer_pss_bytes": 14613504
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b02-tutorial-components",
+    "sequence": 143,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11179766744,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14624768
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b02-tutorial-components",
+    "sequence": 142,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 13321442623,
+      "observer_cpu_seconds": 0.32,
+      "observer_rss_bytes": 24485888,
+      "observer_pss_bytes": 16023552
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b02-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b02-tutorial-components",
+    "sequence": 144,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11207249772,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23089152,
+      "observer_pss_bytes": 14636032
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b03-p4net",
+    "sequence": 146,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 10992416912,
+      "observer_cpu_seconds": 0.0,
+      "observer_rss_bytes": 23064576,
+      "observer_pss_bytes": 14613504
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b03-p4net",
+    "sequence": 147,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11196655727,
+      "observer_cpu_seconds": 0.43,
+      "observer_rss_bytes": 24408064,
+      "observer_pss_bytes": 15968256
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b03-p4net",
+    "sequence": 145,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11116935009,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23138304,
+      "observer_pss_bytes": 14649344
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b03-p4utils",
+    "sequence": 122,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11801617463,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14620672
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b03-p4utils",
+    "sequence": 123,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11839985986,
+      "observer_cpu_seconds": 0.4,
+      "observer_rss_bytes": 24436736,
+      "observer_pss_bytes": 15982592
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b03-p4utils",
+    "sequence": 121,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11802084449,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23068672,
+      "observer_pss_bytes": 14619648
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b03-tutorial-components",
+    "sequence": 180,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11220381611,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14620672
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b03-tutorial-components",
+    "sequence": 178,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11157582963,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24416256,
+      "observer_pss_bytes": 15992832
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b03-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b03-tutorial-components",
+    "sequence": 179,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11204788831,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23072768,
+      "observer_pss_bytes": 14621696
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b04-p4net",
+    "sequence": 137,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11001226675,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23040000,
+      "observer_pss_bytes": 14608384
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b04-p4net",
+    "sequence": 136,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11018185854,
+      "observer_cpu_seconds": 0.42,
+      "observer_rss_bytes": 24428544,
+      "observer_pss_bytes": 15973376
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b04-p4net",
+    "sequence": 138,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11018822699,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14624768
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b04-p4utils",
+    "sequence": 164,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11789160494,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23064576,
+      "observer_pss_bytes": 14615552
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b04-p4utils",
+    "sequence": 163,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11825892548,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24551424,
+      "observer_pss_bytes": 16014336
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b04-p4utils",
+    "sequence": 165,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11796565917,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23040000,
+      "observer_pss_bytes": 14612480
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b04-tutorial-components",
+    "sequence": 148,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11211396173,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23072768,
+      "observer_pss_bytes": 14625792
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b04-tutorial-components",
+    "sequence": 150,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11186004019,
+      "observer_cpu_seconds": 0.4,
+      "observer_rss_bytes": 24530944,
+      "observer_pss_bytes": 16034816
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b04-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b04-tutorial-components",
+    "sequence": 149,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11157296516,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23162880,
+      "observer_pss_bytes": 14667776
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b05-p4net",
+    "sequence": 93,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11034543918,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23040000,
+      "observer_pss_bytes": 14607360
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b05-p4net",
+    "sequence": 91,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11499625434,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24543232,
+      "observer_pss_bytes": 16005120
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b05-p4net",
+    "sequence": 92,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11040183486,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23195648,
+      "observer_pss_bytes": 14670848
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b05-p4utils",
+    "sequence": 166,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11797164214,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14624768
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b05-p4utils",
+    "sequence": 168,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11841444181,
+      "observer_cpu_seconds": 0.35,
+      "observer_rss_bytes": 24416256,
+      "observer_pss_bytes": 15967232
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b05-p4utils",
+    "sequence": 167,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11785753348,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23035904,
+      "observer_pss_bytes": 14616576
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s02-n01-b05-tutorial-components",
+    "sequence": 131,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11125469802,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23089152,
+      "observer_pss_bytes": 14636032
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s02-n01-b05-tutorial-components",
+    "sequence": 132,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11185651686,
+      "observer_cpu_seconds": 0.39,
+      "observer_rss_bytes": 24420352,
+      "observer_pss_bytes": 15992832
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n01-b05-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s02-n01-b05-tutorial-components",
+    "sequence": 130,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11196212673,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23109632,
+      "observer_pss_bytes": 14651392
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b01-p4net",
+    "sequence": 135,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19913302215,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23793664,
+      "observer_pss_bytes": 15304704
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b01-p4net",
+    "sequence": 134,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19849037697,
+      "observer_cpu_seconds": 1.71,
+      "observer_rss_bytes": 30351360,
+      "observer_pss_bytes": 21902336
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b01-p4net",
+    "sequence": 133,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19977325666,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23732224,
+      "observer_pss_bytes": 15279104
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b01-p4utils",
+    "sequence": 112,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17294932633,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23719936,
+      "observer_pss_bytes": 15284224
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b01-p4utils",
+    "sequence": 113,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17341781580,
+      "observer_cpu_seconds": 1.73,
+      "observer_rss_bytes": 30310400,
+      "observer_pss_bytes": 21882880
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b01-p4utils",
+    "sequence": 114,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17260216721,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23801856,
+      "observer_pss_bytes": 15312896
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b01-tutorial-components",
+    "sequence": 120,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23933414656,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23736320,
+      "observer_pss_bytes": 15285248
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b01-tutorial-components",
+    "sequence": 119,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24082354294,
+      "observer_cpu_seconds": 1.6,
+      "observer_rss_bytes": 30326784,
+      "observer_pss_bytes": 21891072
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b01-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b01-tutorial-components",
+    "sequence": 118,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23852108040,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23695360,
+      "observer_pss_bytes": 15248384
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b02-p4net",
+    "sequence": 109,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19675570318,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23805952,
+      "observer_pss_bytes": 15310848
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b02-p4net",
+    "sequence": 110,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20012615687,
+      "observer_cpu_seconds": 1.72,
+      "observer_rss_bytes": 30343168,
+      "observer_pss_bytes": 21813248
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b02-p4net",
+    "sequence": 111,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19842248817,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23810048,
+      "observer_pss_bytes": 15318016
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b02-p4utils",
+    "sequence": 103,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17160342411,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23756800,
+      "observer_pss_bytes": 15301632
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b02-p4utils",
+    "sequence": 105,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17217219690,
+      "observer_cpu_seconds": 1.74,
+      "observer_rss_bytes": 30334976,
+      "observer_pss_bytes": 21881856
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b02-p4utils",
+    "sequence": 104,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17261135684,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23724032,
+      "observer_pss_bytes": 15294464
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b02-tutorial-components",
+    "sequence": 152,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23594929349,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23764992,
+      "observer_pss_bytes": 15310848
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b02-tutorial-components",
+    "sequence": 153,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23856092180,
+      "observer_cpu_seconds": 1.67,
+      "observer_rss_bytes": 30412800,
+      "observer_pss_bytes": 21934080
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b02-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b02-tutorial-components",
+    "sequence": 151,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23614087550,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23695360,
+      "observer_pss_bytes": 15267840
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b03-p4net",
+    "sequence": 101,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19559327829,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23703552,
+      "observer_pss_bytes": 15270912
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b03-p4net",
+    "sequence": 102,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20105826351,
+      "observer_cpu_seconds": 1.72,
+      "observer_rss_bytes": 30322688,
+      "observer_pss_bytes": 21890048
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b03-p4net",
+    "sequence": 100,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19770157153,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23732224,
+      "observer_pss_bytes": 15280128
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b03-p4utils",
+    "sequence": 174,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17176671015,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23822336,
+      "observer_pss_bytes": 15330304
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b03-p4utils",
+    "sequence": 173,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17311314672,
+      "observer_cpu_seconds": 1.57,
+      "observer_rss_bytes": 32743424,
+      "observer_pss_bytes": 24251392
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b03-p4utils",
+    "sequence": 172,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17158828928,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23719936,
+      "observer_pss_bytes": 15265792
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b03-tutorial-components",
+    "sequence": 155,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23622432919,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23678976,
+      "observer_pss_bytes": 15243264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b03-tutorial-components",
+    "sequence": 154,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24129294024,
+      "observer_cpu_seconds": 1.76,
+      "observer_rss_bytes": 32657408,
+      "observer_pss_bytes": 24229888
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b03-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b03-tutorial-components",
+    "sequence": 156,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23640886543,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23674880,
+      "observer_pss_bytes": 15243264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b04-p4net",
+    "sequence": 125,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19815087054,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23719936,
+      "observer_pss_bytes": 15276032
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b04-p4net",
+    "sequence": 124,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19741083070,
+      "observer_cpu_seconds": 1.69,
+      "observer_rss_bytes": 32600064,
+      "observer_pss_bytes": 24206336
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b04-p4net",
+    "sequence": 126,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19644520944,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23711744,
+      "observer_pss_bytes": 15280128
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b04-p4utils",
+    "sequence": 129,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17147483615,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23871488,
+      "observer_pss_bytes": 15330304
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b04-p4utils",
+    "sequence": 127,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17411145092,
+      "observer_cpu_seconds": 1.72,
+      "observer_rss_bytes": 30302208,
+      "observer_pss_bytes": 21874688
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b04-p4utils",
+    "sequence": 128,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17226231236,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23678976,
+      "observer_pss_bytes": 15229952
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b04-tutorial-components",
+    "sequence": 94,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23851309277,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23703552,
+      "observer_pss_bytes": 15250432
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b04-tutorial-components",
+    "sequence": 95,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24106095264,
+      "observer_cpu_seconds": 1.66,
+      "observer_rss_bytes": 30318592,
+      "observer_pss_bytes": 21890048
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b04-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b04-tutorial-components",
+    "sequence": 96,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23707772651,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23711744,
+      "observer_pss_bytes": 15292416
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-p4net-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b05-p4net",
+    "sequence": 108,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19738913462,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23797760,
+      "observer_pss_bytes": 15304704
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-p4net-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b05-p4net",
+    "sequence": 106,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19893349361,
+      "observer_cpu_seconds": 1.67,
+      "observer_rss_bytes": 30494720,
+      "observer_pss_bytes": 21952512
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-p4net-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b05-p4net",
+    "sequence": 107,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19968907133,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23842816,
+      "observer_pss_bytes": 15316992
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-p4utils-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b05-p4utils",
+    "sequence": 98,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17103973200,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23744512,
+      "observer_pss_bytes": 15292416
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-p4utils-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b05-p4utils",
+    "sequence": 97,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17459904310,
+      "observer_cpu_seconds": 1.67,
+      "observer_rss_bytes": 30466048,
+      "observer_pss_bytes": 21923840
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-p4utils-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b05-p4utils",
+    "sequence": 99,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17273462888,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23703552,
+      "observer_pss_bytes": 15275008
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-tutorial-components-B",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s02-n16-b05-tutorial-components",
+    "sequence": 139,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23519416235,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23658496,
+      "observer_pss_bytes": 15284224
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-tutorial-components-S",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s02-n16-b05-tutorial-components",
+    "sequence": 141,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23643889069,
+      "observer_cpu_seconds": 1.44,
+      "observer_rss_bytes": 32681984,
+      "observer_pss_bytes": 24228864
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s02-n16-b05-tutorial-components-T",
+    "attempt": 1,
+    "session": 2,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s02-n16-b05-tutorial-components",
+    "sequence": 140,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23803400599,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23732224,
+      "observer_pss_bytes": 15278080
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b01-p4net",
+    "sequence": 263,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11066743479,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23101440,
+      "observer_pss_bytes": 14641152
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b01-p4net",
+    "sequence": 264,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11066232307,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24559616,
+      "observer_pss_bytes": 16025600
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b01-p4net",
+    "sequence": 262,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11067114405,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23093248,
+      "observer_pss_bytes": 14636032
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b01-p4utils",
+    "sequence": 236,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11826876904,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23154688,
+      "observer_pss_bytes": 14662656
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b01-p4utils",
+    "sequence": 235,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11981266837,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24383488,
+      "observer_pss_bytes": 15970304
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b01-p4utils",
+    "sequence": 237,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11905300955,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23207936,
+      "observer_pss_bytes": 14668800
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b01-tutorial-components",
+    "sequence": 210,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11188843183,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14538752
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b01-tutorial-components",
+    "sequence": 208,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11912462994,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24535040,
+      "observer_pss_bytes": 15961088
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b01-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b01-tutorial-components",
+    "sequence": 209,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11255691048,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23150592,
+      "observer_pss_bytes": 14592000
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b02-p4net",
+    "sequence": 267,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11064826507,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23187456,
+      "observer_pss_bytes": 14661632
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b02-p4net",
+    "sequence": 265,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11145941912,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24535040,
+      "observer_pss_bytes": 16011264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b02-p4net",
+    "sequence": 266,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11088791270,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23113728,
+      "observer_pss_bytes": 14654464
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b02-p4utils",
+    "sequence": 193,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11870114875,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23080960,
+      "observer_pss_bytes": 14625792
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b02-p4utils",
+    "sequence": 194,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11899931169,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24678400,
+      "observer_pss_bytes": 16187392
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b02-p4utils",
+    "sequence": 195,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11875105091,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23052288,
+      "observer_pss_bytes": 14625792
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b02-tutorial-components",
+    "sequence": 206,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11180231110,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23203840,
+      "observer_pss_bytes": 14680064
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b02-tutorial-components",
+    "sequence": 207,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11208580613,
+      "observer_cpu_seconds": 0.36,
+      "observer_rss_bytes": 24436736,
+      "observer_pss_bytes": 15913984
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b02-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b02-tutorial-components",
+    "sequence": 205,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11225632605,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14620672
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b03-p4net",
+    "sequence": 201,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11172372056,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23044096,
+      "observer_pss_bytes": 14608384
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b03-p4net",
+    "sequence": 200,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11130971928,
+      "observer_cpu_seconds": 0.39,
+      "observer_rss_bytes": 24403968,
+      "observer_pss_bytes": 15963136
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b03-p4net",
+    "sequence": 199,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11086705347,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23089152,
+      "observer_pss_bytes": 14632960
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b03-p4utils",
+    "sequence": 233,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11864509507,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23048192,
+      "observer_pss_bytes": 14617600
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b03-p4utils",
+    "sequence": 234,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11900316483,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24395776,
+      "observer_pss_bytes": 15965184
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b03-p4utils",
+    "sequence": 232,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11888652580,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23040000,
+      "observer_pss_bytes": 14629888
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b03-tutorial-components",
+    "sequence": 241,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11240536859,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23158784,
+      "observer_pss_bytes": 14665728
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b03-tutorial-components",
+    "sequence": 242,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11218528315,
+      "observer_cpu_seconds": 0.37,
+      "observer_rss_bytes": 24436736,
+      "observer_pss_bytes": 16003072
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b03-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b03-tutorial-components",
+    "sequence": 243,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11258670409,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23203840,
+      "observer_pss_bytes": 14680064
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b04-p4net",
+    "sequence": 256,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11106743128,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23101440,
+      "observer_pss_bytes": 14641152
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b04-p4net",
+    "sequence": 257,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11104195414,
+      "observer_cpu_seconds": 0.39,
+      "observer_rss_bytes": 24535040,
+      "observer_pss_bytes": 16011264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b04-p4net",
+    "sequence": 258,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11099497771,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23048192,
+      "observer_pss_bytes": 14622720
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b04-p4utils",
+    "sequence": 184,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11806230409,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23060480,
+      "observer_pss_bytes": 14611456
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b04-p4utils",
+    "sequence": 186,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11859247201,
+      "observer_cpu_seconds": 0.39,
+      "observer_rss_bytes": 24387584,
+      "observer_pss_bytes": 15966208
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b04-p4utils",
+    "sequence": 185,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11853135361,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23085056,
+      "observer_pss_bytes": 14631936
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b04-tutorial-components",
+    "sequence": 223,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11208825436,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23134208,
+      "observer_pss_bytes": 14566400
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b04-tutorial-components",
+    "sequence": 225,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11244471691,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24436736,
+      "observer_pss_bytes": 15915008
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b04-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b04-tutorial-components",
+    "sequence": 224,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11229409438,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23056384,
+      "observer_pss_bytes": 14534656
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b05-p4net",
+    "sequence": 229,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11069655087,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23179264,
+      "observer_pss_bytes": 14573568
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b05-p4net",
+    "sequence": 231,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11097739427,
+      "observer_cpu_seconds": 0.36,
+      "observer_rss_bytes": 24453120,
+      "observer_pss_bytes": 15993856
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b05-p4net",
+    "sequence": 230,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11201827922,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23085056,
+      "observer_pss_bytes": 14544896
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b05-p4utils",
+    "sequence": 198,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11863729207,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23142400,
+      "observer_pss_bytes": 14656512
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b05-p4utils",
+    "sequence": 197,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11927067211,
+      "observer_cpu_seconds": 0.38,
+      "observer_rss_bytes": 24653824,
+      "observer_pss_bytes": 16169984
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b05-p4utils",
+    "sequence": 196,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11818060025,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23080960,
+      "observer_pss_bytes": 14624768
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "B",
+    "block": "observer-s03-n01-b05-tutorial-components",
+    "sequence": 270,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11189105159,
+      "observer_cpu_seconds": 0.01,
+      "observer_rss_bytes": 23134208,
+      "observer_pss_bytes": 14648320
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "S",
+    "block": "observer-s03-n01-b05-tutorial-components",
+    "sequence": 269,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11275027811,
+      "observer_cpu_seconds": 0.36,
+      "observer_rss_bytes": 24424448,
+      "observer_pss_bytes": 15998976
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n01-b05-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 1,
+    "profile": "T",
+    "block": "observer-s03-n01-b05-tutorial-components",
+    "sequence": 268,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 11210187865,
+      "observer_cpu_seconds": 0.02,
+      "observer_rss_bytes": 23060480,
+      "observer_pss_bytes": 14622720
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b01-p4net",
+    "sequence": 192,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20002471783,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23715840,
+      "observer_pss_bytes": 15265792
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b01-p4net",
+    "sequence": 190,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20402184338,
+      "observer_cpu_seconds": 1.66,
+      "observer_rss_bytes": 30351360,
+      "observer_pss_bytes": 21902336
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b01-p4net",
+    "sequence": 191,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20155821449,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23687168,
+      "observer_pss_bytes": 15269888
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b01-p4utils",
+    "sequence": 250,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17392785807,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23871488,
+      "observer_pss_bytes": 15332352
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b01-p4utils",
+    "sequence": 252,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17458046374,
+      "observer_cpu_seconds": 1.63,
+      "observer_rss_bytes": 30318592,
+      "observer_pss_bytes": 21869568
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b01-p4utils",
+    "sequence": 251,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17431076053,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23822336,
+      "observer_pss_bytes": 15330304
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b01-tutorial-components",
+    "sequence": 249,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23962103415,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23678976,
+      "observer_pss_bytes": 15243264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b01-tutorial-components",
+    "sequence": 247,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24133551324,
+      "observer_cpu_seconds": 1.72,
+      "observer_rss_bytes": 30318592,
+      "observer_pss_bytes": 21888000
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b01-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b01-tutorial-components",
+    "sequence": 248,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23988972623,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23691264,
+      "observer_pss_bytes": 15243264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b02-p4net",
+    "sequence": 187,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20003108736,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23814144,
+      "observer_pss_bytes": 15323136
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b02-p4net",
+    "sequence": 189,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20254853399,
+      "observer_cpu_seconds": 1.65,
+      "observer_rss_bytes": 30322688,
+      "observer_pss_bytes": 21896192
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b02-p4net",
+    "sequence": 188,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20067879037,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23699456,
+      "observer_pss_bytes": 15269888
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b02-p4utils",
+    "sequence": 219,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17294735638,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23703552,
+      "observer_pss_bytes": 15169536
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b02-p4utils",
+    "sequence": 218,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17538956028,
+      "observer_cpu_seconds": 1.79,
+      "observer_rss_bytes": 30326784,
+      "observer_pss_bytes": 21790720
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b02-p4utils",
+    "sequence": 217,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17251544512,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23801856,
+      "observer_pss_bytes": 15243264
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b02-tutorial-components",
+    "sequence": 220,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23741480299,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23830528,
+      "observer_pss_bytes": 15254528
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b02-tutorial-components",
+    "sequence": 222,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23990174831,
+      "observer_cpu_seconds": 1.74,
+      "observer_rss_bytes": 30339072,
+      "observer_pss_bytes": 21816320
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b02-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b02-tutorial-components",
+    "sequence": 221,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24032441365,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23752704,
+      "observer_pss_bytes": 15217664
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b03-p4net",
+    "sequence": 215,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20107894907,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23699456,
+      "observer_pss_bytes": 15186944
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b03-p4net",
+    "sequence": 214,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20192458403,
+      "observer_cpu_seconds": 1.61,
+      "observer_rss_bytes": 32665600,
+      "observer_pss_bytes": 24130560
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b03-p4net",
+    "sequence": 216,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19782646743,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23818240,
+      "observer_pss_bytes": 15242240
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b03-p4utils",
+    "sequence": 260,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17480140882,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23674880,
+      "observer_pss_bytes": 15222784
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b03-p4utils",
+    "sequence": 261,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17623462126,
+      "observer_cpu_seconds": 1.69,
+      "observer_rss_bytes": 30306304,
+      "observer_pss_bytes": 21870592
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b03-p4utils",
+    "sequence": 259,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17488197717,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23687168,
+      "observer_pss_bytes": 15263744
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b03-tutorial-components",
+    "sequence": 228,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23928572608,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23756800,
+      "observer_pss_bytes": 15188992
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b03-tutorial-components",
+    "sequence": 227,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24161872570,
+      "observer_cpu_seconds": 1.76,
+      "observer_rss_bytes": 30330880,
+      "observer_pss_bytes": 21809152
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b03-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b03-tutorial-components",
+    "sequence": 226,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23992161605,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23818240,
+      "observer_pss_bytes": 15250432
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b04-p4net",
+    "sequence": 253,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19964426468,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23797760,
+      "observer_pss_bytes": 15306752
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b04-p4net",
+    "sequence": 254,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 20110206297,
+      "observer_cpu_seconds": 1.65,
+      "observer_rss_bytes": 30502912,
+      "observer_pss_bytes": 21963776
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b04-p4net",
+    "sequence": 255,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19928384580,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23715840,
+      "observer_pss_bytes": 15275008
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b04-p4utils",
+    "sequence": 203,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17075381106,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23773184,
+      "observer_pss_bytes": 15294464
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b04-p4utils",
+    "sequence": 202,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17384598391,
+      "observer_cpu_seconds": 1.68,
+      "observer_rss_bytes": 30294016,
+      "observer_pss_bytes": 21868544
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b04-p4utils",
+    "sequence": 204,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17517230753,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23711744,
+      "observer_pss_bytes": 15270912
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b04-tutorial-components",
+    "sequence": 239,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24096689640,
+      "observer_cpu_seconds": 0.06,
+      "observer_rss_bytes": 23752704,
+      "observer_pss_bytes": 15298560
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b04-tutorial-components",
+    "sequence": 238,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24049604857,
+      "observer_cpu_seconds": 1.76,
+      "observer_rss_bytes": 32653312,
+      "observer_pss_bytes": 24223744
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b04-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b04-tutorial-components",
+    "sequence": 240,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23870987164,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23867392,
+      "observer_pss_bytes": 15328256
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-p4net-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b05-p4net",
+    "sequence": 212,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19783074240,
+      "observer_cpu_seconds": 0.03,
+      "observer_rss_bytes": 23719936,
+      "observer_pss_bytes": 15185920
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-p4net-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b05-p4net",
+    "sequence": 213,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19926333733,
+      "observer_cpu_seconds": 1.68,
+      "observer_rss_bytes": 32747520,
+      "observer_pss_bytes": 24171520
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-p4net-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4net",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b05-p4net",
+    "sequence": 211,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 19730468094,
+      "observer_cpu_seconds": 0.04,
+      "observer_rss_bytes": 23699456,
+      "observer_pss_bytes": 15192064
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-p4utils-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b05-p4utils",
+    "sequence": 181,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17845102715,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23707648,
+      "observer_pss_bytes": 15282176
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-p4utils-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b05-p4utils",
+    "sequence": 182,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17824860075,
+      "observer_cpu_seconds": 1.69,
+      "observer_rss_bytes": 30466048,
+      "observer_pss_bytes": 21925888
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-p4utils-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "p4utils",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b05-p4utils",
+    "sequence": 183,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 17392354340,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23732224,
+      "observer_pss_bytes": 15283200
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-tutorial-components-B",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "B",
+    "block": "observer-s03-n16-b05-tutorial-components",
+    "sequence": 244,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 24001546569,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23732224,
+      "observer_pss_bytes": 15307776
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-tutorial-components-S",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "S",
+    "block": "observer-s03-n16-b05-tutorial-components",
+    "sequence": 245,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23794252046,
+      "observer_cpu_seconds": 1.6,
+      "observer_rss_bytes": 32755712,
+      "observer_pss_bytes": 24261632
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  },
+  {
+    "id": "observer-s03-n16-b05-tutorial-components-T",
+    "attempt": 1,
+    "session": 3,
+    "tool": "tutorial-components",
+    "switches": 16,
+    "profile": "T",
+    "block": "observer-s03-n16-b05-tutorial-components",
+    "sequence": 246,
+    "state": "completed",
+    "metrics": {
+      "observer_body_wall_ns": 23982000652,
+      "observer_cpu_seconds": 0.05,
+      "observer_rss_bytes": 23764992,
+      "observer_pss_bytes": 15279104
+    },
+    "qualified": true,
+    "treatment_valid": true,
+    "measurement_issues": []
+  }
+]

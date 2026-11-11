@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" type="device">
+  <diagram name="control-teardown" id="control-teardown">
+    <mxGraphModel dx="1500" dy="930" grid="1" gridSize="10" page="0" pageWidth="1500" pageHeight="930" background="#FFFFFF" math="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p4net-panel" value="" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#FAFCFE;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="25" width="710" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="p4utils-panel" value="" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=23;fontColor=#233746;fillColor=#FFFCF8;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="25" width="710" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="p4net-title" value="p4net synchronous client" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=26;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="45" width="660" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4utils-title" value="P4-Utils synchronous client" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=26;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="45" width="660" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4netCaller" value="Caller" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=22;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="125" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p4netCaller-life" value="" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;endArrow=none;strokeColor=#88939B;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="195" as="sourcePoint" />
+            <mxPoint x="135" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4netgRPC transport" value="gRPC transport" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=22;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="275" y="125" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p4netgRPC transport-life" value="" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;endArrow=none;strokeColor=#88939B;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="195" as="sourcePoint" />
+            <mxPoint x="365" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4netReceiver" value="Receiver" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=22;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="505" y="125" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p4netReceiver-life" value="" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;endArrow=none;strokeColor=#88939B;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="195" as="sourcePoint" />
+            <mxPoint x="595" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4utilsCaller" value="Caller" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=22;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="795" y="125" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p4utilsCaller-life" value="" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;endArrow=none;strokeColor=#88939B;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="195" as="sourcePoint" />
+            <mxPoint x="885" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4utilsgRPC transport" value="gRPC transport" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=22;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="125" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p4utilsgRPC transport-life" value="" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;endArrow=none;strokeColor=#88939B;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="195" as="sourcePoint" />
+            <mxPoint x="1115" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4utilsReceiver" value="Receiver" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=22;fontColor=#233746;fillColor=#F2F3F5;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="125" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p4utilsReceiver-life" value="" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;endArrow=none;strokeColor=#88939B;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1345" y="195" as="sourcePoint" />
+            <mxPoint x="1345" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4net-state" value="Mark closed; enqueue sentinel" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=21;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FAFCFE;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="225" width="285" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cancel" value="cancel stream" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="340" as="sourcePoint" />
+            <mxPoint x="365" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="close-first" value="close channel" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="450" as="sourcePoint" />
+            <mxPoint x="365" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unlock" value="Release teardown lock" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=21;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FAFCFE;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="505" width="285" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bounded-join" value="join receiver (timeout = 2 s)" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="650" as="sourcePoint" />
+            <mxPoint x="595" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bound-note" value="The bound limits the caller's join wait." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=21;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FAFCFE;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="735" width="650" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4utils-queue" value="Enqueue end-of-stream marker" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=21;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFCF8;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="795" y="225" width="310" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="unbounded-join" value="join receiver (no timeout)" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="355" as="sourcePoint" />
+            <mxPoint x="1345" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wait-note" value="Wait for receiver join" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=22;fontColor=#233746;fillColor=#FFF0DA;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="980" y="430" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="return-note" value="After join returns" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=21;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFCF8;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="565" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="close-after" value="close channel" style="html=0;fontFamily=Times New Roman;fontSize=20;fontColor=#233746;strokeColor=#233746;strokeWidth=1.6;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="680" as="sourcePoint" />
+            <mxPoint x="1115" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence-note" value="Connected-stream case. Vertical placement denotes source order." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Times New Roman;fontSize=21;fontColor=#233746;fillColor=white;strokeColor=#233746;strokeWidth=1.6;spacing=8;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="875" width="1360" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
