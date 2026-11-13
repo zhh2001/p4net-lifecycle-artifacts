@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "runtime": "Lifecycle, observer, and diagnostic collection engines with portable dependency binding",
+  "sources": {
+    "collection/runtime/diagnostic/__init__.py": {
+      "source_sha256": "5cd3e4bb8dce7cc7965791e36f69e9c575825f520d39f5f7c0b8fbcc4bd57a86",
+      "exported_sha256": "5cd3e4bb8dce7cc7965791e36f69e9c575825f520d39f5f7c0b8fbcc4bd57a86"
+    },
+    "collection/runtime/diagnostic/hooks.py": {
+      "source_sha256": "8268966b07857cd9965d465b980627967d08b0c2d3969f27095937a88d40c11d",
+      "exported_sha256": "8268966b07857cd9965d465b980627967d08b0c2d3969f27095937a88d40c11d"
+    },
+    "collection/runtime/diagnostic/registry.py": {
+      "source_sha256": "3563d7c157cc5d889ff60af86ad18452c2d465210319a2a976798048fe0afb5f",
+      "exported_sha256": "3563d7c157cc5d889ff60af86ad18452c2d465210319a2a976798048fe0afb5f"
+    },
+    "collection/runtime/diagnostic/runner.py": {
+      "source_sha256": "b49663113570560fc7456f83bb28db1a2bf01eb2baf2b98143f7b0d206c48d11",
+      "exported_sha256": "b49663113570560fc7456f83bb28db1a2bf01eb2baf2b98143f7b0d206c48d11"
+    },
+    "collection/runtime/diagnostic/stacks.py": {
+      "source_sha256": "cf27c957074f7b52be929d09299c999818dea7c83b1f8533503c6580266c136b",
+      "exported_sha256": "cf27c957074f7b52be929d09299c999818dea7c83b1f8533503c6580266c136b"
+    },
+    "collection/runtime/diagnostic/trace.py": {
+      "source_sha256": "a628b0b5cc16eb8b1a813a023a08b773ba4b152a1dfec6621f2733c302dbf5c2",
+      "exported_sha256": "a628b0b5cc16eb8b1a813a023a08b773ba4b152a1dfec6621f2733c302dbf5c2"
+    },
+    "collection/runtime/harness/__init__.py": {
+      "source_sha256": "055209461ba94f7e8cc5c1dbd8784a5106e1801bfe3309b3758510e47f03056d",
+      "exported_sha256": "055209461ba94f7e8cc5c1dbd8784a5106e1801bfe3309b3758510e47f03056d"
+    },
+    "collection/runtime/harness/aggregate.py": {
+      "source_sha256": "990544725db322c0e5648eda50f8a8e1da05c9c6b1ac67d4efb4949d2e292d80",
+      "exported_sha256": "990544725db322c0e5648eda50f8a8e1da05c9c6b1ac67d4efb4949d2e292d80"
+    },
+    "collection/runtime/harness/audit.py": {
+      "source_sha256": "7ba9549afd9206a76efacdcea2b6ecc9853aba5245b8437684517d632127a8ac",
+      "exported_sha256": "7ba9549afd9206a76efacdcea2b6ecc9853aba5245b8437684517d632127a8ac"
+    },
+    "collection/runtime/harness/baseline_checks.py": {
+      "source_sha256": "6340cba9f2930d2e10263c55df7a0a0d8a32260cd389adae0918b52420cc5d5e",
+      "exported_sha256": "331e749cf24edf8721d9f45f5d4c34480dcbd8ec958078dfd0056c5aa6b67911"
+    },
+    "collection/runtime/harness/bin/simple_switch_grpc": {
+      "source_sha256": "1a37dcb3bcfeba0b90ee310971b3da3783cb614fed3b52b4151adf3290868342",
+      "exported_sha256": "1a37dcb3bcfeba0b90ee310971b3da3783cb614fed3b52b4151adf3290868342"
+    },
+    "collection/runtime/harness/bmv2_launcher.py": {
+      "source_sha256": "6051955dc99b4473b7b7e30245224a6c7ebf955f10b88aebe7d804d4f25cf8ea",
+      "exported_sha256": "6051955dc99b4473b7b7e30245224a6c7ebf955f10b88aebe7d804d4f25cf8ea"
+    },
+    "collection/runtime/harness/campaign.py": {
+      "source_sha256": "c3b9f1ebdb8de8aaeeb111ad71ce6157e6b3ee75d35bba288d077fe8cc43f087",
+      "exported_sha256": "4fa95abcda23c1b55fe30d4fd860ec060d43452562e35e0bbd66b715105820eb"
+    },
+    "collection/runtime/harness/campaign_bridge.py": {
+      "source_sha256": "6f0393af6437a1fdd075338fe0902f078ccfb2d4666c1a8b6558f3a7db7a020e",
+      "exported_sha256": "6f0393af6437a1fdd075338fe0902f078ccfb2d4666c1a8b6558f3a7db7a020e"
+    },
+    "collection/runtime/harness/campaign_executor.py": {
+      "source_sha256": "cee0bf7bd27f44a72e27daa30896c2e3f0e2af7b430405f751d94631934986a1",
+      "exported_sha256": "cee0bf7bd27f44a72e27daa30896c2e3f0e2af7b430405f751d94631934986a1"
+    },
+    "collection/runtime/harness/campaign_inputs.py": {
+      "source_sha256": "045a8fe380812b37f1f75312e1eca74e48ecc358fd6cf458eebabebcf3789f82",
+      "exported_sha256": "045a8fe380812b37f1f75312e1eca74e48ecc358fd6cf458eebabebcf3789f82"
+    },
+    "collection/runtime/harness/campaign_snapshot.py": {
+      "source_sha256": "b1785e74df47bee895386c9a70db61e146b1db3ba85e1ffd61698a2cfe0a41cf",
+      "exported_sha256": "b1785e74df47bee895386c9a70db61e146b1db3ba85e1ffd61698a2cfe0a41cf"
+    },
+    "collection/runtime/harness/configuration_checks.py": {
+      "source_sha256": "c22a826aefd0c09c515c0ba5e830fc0597d4af5a16b4469c3ce26ba39a574c57",
+      "exported_sha256": "22b07c76bed8afc519fd80315499cf18c2e1a3ff03e25536337cb87a0100aa1f"
+    },
+    "collection/runtime/harness/diagnostic_binding.py": {
+      "source_sha256": "fdca27a77fc0b7f7a96fedfc9a3f3d10d37c4eb4dc1bd53f39f982c099bf76a3",
+      "exported_sha256": "fdca27a77fc0b7f7a96fedfc9a3f3d10d37c4eb4dc1bd53f39f982c099bf76a3"
+    },
+    "collection/runtime/harness/diagnostic_checks.py": {
+      "source_sha256": "753c262d5e79f38e2b94ced8f09599aa7490cc62bf1b8d1eab29c8421bf784f5",
+      "exported_sha256": "753c262d5e79f38e2b94ced8f09599aa7490cc62bf1b8d1eab29c8421bf784f5"
+    },
+    "collection/runtime/harness/diagnostic_isolation.py": {
+      "source_sha256": "7125201901a069367f2567c7b23aa7093824e7b31ce7759e7bfe89e01c937629",
+      "exported_sha256": "7125201901a069367f2567c7b23aa7093824e7b31ce7759e7bfe89e01c937629"
+    },
+    "collection/runtime/harness/diagnostic_worker.py": {
+      "source_sha256": "0a3a846782a2a35c5a5d0da73d06ef0e36c1573ba689f166c337242e84e1df15",
+      "exported_sha256": "0a3a846782a2a35c5a5d0da73d06ef0e36c1573ba689f166c337242e84e1df15"
+    },
+    "collection/runtime/harness/episode.py": {
+      "source_sha256": "7595adc9955aded89c4f77474d9aacfd05b10ddfab02720c223f38411fae8d22",
+      "exported_sha256": "7595adc9955aded89c4f77474d9aacfd05b10ddfab02720c223f38411fae8d22"
+    },
+    "collection/runtime/harness/events.py": {
+      "source_sha256": "eb76a542ecf8710c661ded63f43a01d16180222d732053835005131154060966",
+      "exported_sha256": "eb76a542ecf8710c661ded63f43a01d16180222d732053835005131154060966"
+    },
+    "collection/runtime/harness/faults.py": {
+      "source_sha256": "3cff220d6782058a2232d9819ec9fec8b8eb489b6928076551682b9037ffa6d7",
+      "exported_sha256": "3cff220d6782058a2232d9819ec9fec8b8eb489b6928076551682b9037ffa6d7"
+    },
+    "collection/runtime/harness/isolation.py": {
+      "source_sha256": "0eb0ab1c8cc07188ede8842c18ceb4c97ceef761aa0c6f1bc7a51835856025b9",
+      "exported_sha256": "0eb0ab1c8cc07188ede8842c18ceb4c97ceef761aa0c6f1bc7a51835856025b9"
+    },
+    "collection/runtime/harness/measure.py": {
+      "source_sha256": "f7ea12445dccb36c04b23950fbcc7bce7571379fc877cab7f0deb45a7e0b4101",
+      "exported_sha256": "f7ea12445dccb36c04b23950fbcc7bce7571379fc877cab7f0deb45a7e0b4101"
+    },
+    "collection/runtime/harness/native_measurement.py": {
+      "source_sha256": "f17c92ea6ba5da09e547717e84633ed84efc315dba61c344d7a04dec526181b3",
+      "exported_sha256": "f17c92ea6ba5da09e547717e84633ed84efc315dba61c344d7a04dec526181b3"
+    },
+    "collection/runtime/harness/native_resources.py": {
+      "source_sha256": "7865e52ee45b7fe23350730926227d4f6b5d09064752608c9b62c21cef4f4631",
+      "exported_sha256": "7865e52ee45b7fe23350730926227d4f6b5d09064752608c9b62c21cef4f4631"
+    },
+    "collection/runtime/harness/native_validation.py": {
+      "source_sha256": "9d4c52a1729db932ef701c4b387c7da8dd0655031679f7f4a1fca263b1c8ac20",
+      "exported_sha256": "9d4c52a1729db932ef701c4b387c7da8dd0655031679f7f4a1fca263b1c8ac20"
+    },
+    "collection/runtime/harness/observer_calibration_plan.py": {
+      "source_sha256": "ad2d1fc8f7cb3a0eaf9c24190431d3c5b931207e1fa9c1a2147c3e07111eb89c",
+      "exported_sha256": "ad2d1fc8f7cb3a0eaf9c24190431d3c5b931207e1fa9c1a2147c3e07111eb89c"
+    },
+    "collection/runtime/harness/observer_campaign.py": {
+      "source_sha256": "aa1498b77bb5d48bc6616752c517832f2a721535b46f75287952ee3508c27e1b",
+      "exported_sha256": "aa1498b77bb5d48bc6616752c517832f2a721535b46f75287952ee3508c27e1b"
+    },
+    "collection/runtime/harness/observer_campaign_analysis.py": {
+      "source_sha256": "e4f7d975db6108310306ffb781293e948862cbff8ce500a579e76a8a6f899aa5",
+      "exported_sha256": "e4f7d975db6108310306ffb781293e948862cbff8ce500a579e76a8a6f899aa5"
+    },
+    "collection/runtime/harness/observer_campaign_inputs.py": {
+      "source_sha256": "b119744e0aa7939bfac69a4c9170aeb337dc2b31148563d0c4b1b3000a61df1e",
+      "exported_sha256": "b119744e0aa7939bfac69a4c9170aeb337dc2b31148563d0c4b1b3000a61df1e"
+    },
+    "collection/runtime/harness/observer_campaign_native.py": {
+      "source_sha256": "33f257310beb04e6d9379502ce409389872146f5dbaa79a7be8cf2275058b18d",
+      "exported_sha256": "33f257310beb04e6d9379502ce409389872146f5dbaa79a7be8cf2275058b18d"
+    },
+    "collection/runtime/harness/observer_campaign_result.py": {
+      "source_sha256": "b6c1a0aaa9335a911e38b73d98ea45340e6936f0aa99a9546f90b718e7eaae96",
+      "exported_sha256": "b6c1a0aaa9335a911e38b73d98ea45340e6936f0aa99a9546f90b718e7eaae96"
+    },
+    "collection/runtime/harness/observer_config.py": {
+      "source_sha256": "d30d718afa96020dbcc5ba132d42c6c45b0ef8e99db76e22eba7dafcc658633a",
+      "exported_sha256": "d30d718afa96020dbcc5ba132d42c6c45b0ef8e99db76e22eba7dafcc658633a"
+    },
+    "collection/runtime/harness/observer_dispatch.py": {
+      "source_sha256": "921181d1422b6eaec5be51b97483f9aca18151773d9cf8a452064866a49ea9d3",
+      "exported_sha256": "921181d1422b6eaec5be51b97483f9aca18151773d9cf8a452064866a49ea9d3"
+    },
+    "collection/runtime/harness/observer_profiles.py": {
+      "source_sha256": "50409a0a03558847670df51e6d7e5d242ace8e6817268e6bbfc2282424f8f590",
+      "exported_sha256": "50409a0a03558847670df51e6d7e5d242ace8e6817268e6bbfc2282424f8f590"
+    },
+    "collection/runtime/harness/observer_reference.py": {
+      "source_sha256": "d00a1a52e1505075a56d547f27fa69882d7e46ab8b5bb81a437a7d47a27bdfe8",
+      "exported_sha256": "d00a1a52e1505075a56d547f27fa69882d7e46ab8b5bb81a437a7d47a27bdfe8"
+    },
+    "collection/runtime/harness/observer_runtime.py": {
+      "source_sha256": "f408aebff593da7bac5c4cd541a57802d52893e96637261d7e41f573a19649cb",
+      "exported_sha256": "f408aebff593da7bac5c4cd541a57802d52893e96637261d7e41f573a19649cb"
+    },
+    "collection/runtime/harness/resources.py": {
+      "source_sha256": "d132ae6291c37a62a8812f060747f88a222da44a339913a8be61d41d90a8b087",
+      "exported_sha256": "d132ae6291c37a62a8812f060747f88a222da44a339913a8be61d41d90a8b087"
+    },
+    "collection/runtime/harness/settings.py": {
+      "source_sha256": "c09576f4134ccf672e99230a99b13af3d26900aad71c73aadfeef90d148ecf3f",
+      "exported_sha256": "c09576f4134ccf672e99230a99b13af3d26900aad71c73aadfeef90d148ecf3f"
+    },
+    "collection/runtime/harness/spec.py": {
+      "source_sha256": "d297aeb5b23b37fa84072e7b8c134fb4686ac87145c79dae84eeb9522eddebfd",
+      "exported_sha256": "d297aeb5b23b37fa84072e7b8c134fb4686ac87145c79dae84eeb9522eddebfd"
+    },
+    "collection/runtime/harness/supervisor.py": {
+      "source_sha256": "18661ea144278a3cf02c22909348b9314ca559b9789dda22dd8a7fd71e94de9a",
+      "exported_sha256": "18661ea144278a3cf02c22909348b9314ca559b9789dda22dd8a7fd71e94de9a"
+    },
+    "collection/runtime/harness/worker.py": {
+      "source_sha256": "9654570a4c7b60b6aa9fc027ded6c648808aaaf9be9df8b63edd300f8fa5a702",
+      "exported_sha256": "9654570a4c7b60b6aa9fc027ded6c648808aaaf9be9df8b63edd300f8fa5a702"
+    },
+    "collection/runtime/harness/worker_components.py": {
+      "source_sha256": "38ba7d7e74eac0033c6364a9ff522c141b96e728f197ac2fc55409ffcfc7f409",
+      "exported_sha256": "38ba7d7e74eac0033c6364a9ff522c141b96e728f197ac2fc55409ffcfc7f409"
+    },
+    "collection/runtime/harness/worker_p4utils.py": {
+      "source_sha256": "6b35368505a1eb15297b209a96aa06ecd943fb5169eff96ed9014c39a7f1009c",
+      "exported_sha256": "6b35368505a1eb15297b209a96aa06ecd943fb5169eff96ed9014c39a7f1009c"
+    },
+    "collection/runtime/harness/worker_tutorial.py": {
+      "source_sha256": "db0979acc17954a0ede31dc69509eaffbd8b65f621ede5d0c347e6f880865845",
+      "exported_sha256": "db0979acc17954a0ede31dc69509eaffbd8b65f621ede5d0c347e6f880865845"
+    },
+    "collection/runtime/harness/workloads/l3.p4": {
+      "source_sha256": "83fceebcd5fbc3822254c94cc8e5ff60bdc69f1092e4f54d42f5a6cefbd22b98",
+      "exported_sha256": "83fceebcd5fbc3822254c94cc8e5ff60bdc69f1092e4f54d42f5a6cefbd22b98"
+    },
+    "collection/runtime/overhead/__init__.py": {
+      "source_sha256": "80dddb19610e4bfc343dbfbabd815da43a4de98152f5f311c8a6734167f35af4",
+      "exported_sha256": "80dddb19610e4bfc343dbfbabd815da43a4de98152f5f311c8a6734167f35af4"
+    },
+    "collection/runtime/overhead/authority.py": {
+      "source_sha256": "c024de5ecb3829345ab1a3c0a547563920c03be91134bd6ed9ae46f26e4f8599",
+      "exported_sha256": "c024de5ecb3829345ab1a3c0a547563920c03be91134bd6ed9ae46f26e4f8599"
+    },
+    "collection/runtime/overhead/campaign.py": {
+      "source_sha256": "ee6fd0e750e877990d9158968196944a4e4762dfe9f52f3e0d690f6f2083cc15",
+      "exported_sha256": "ee6fd0e750e877990d9158968196944a4e4762dfe9f52f3e0d690f6f2083cc15"
+    },
+    "collection/runtime/overhead/campaign_fixture.py": {
+      "source_sha256": "e2f0ee6764be6f867fd2b262a7e57e77414a204a06e7be65bb045459a4ef0620",
+      "exported_sha256": "e2f0ee6764be6f867fd2b262a7e57e77414a204a06e7be65bb045459a4ef0620"
+    },
+    "collection/runtime/overhead/coordinator.py": {
+      "source_sha256": "b54edb684b004c27301bd0563966fc96e832fc8d8c2aa99559d6b7217184a6c2",
+      "exported_sha256": "b54edb684b004c27301bd0563966fc96e832fc8d8c2aa99559d6b7217184a6c2"
+    },
+    "collection/runtime/overhead/entry.py": {
+      "source_sha256": "02a41711c6d0eec75be7bbbf1cdb555e2b59f32cce228aaa4d08eea7f72df896",
+      "exported_sha256": "02a41711c6d0eec75be7bbbf1cdb555e2b59f32cce228aaa4d08eea7f72df896"
+    },
+    "collection/runtime/overhead/host_guards.py": {
+      "source_sha256": "fb756c2ece1eb129fffa9b4d668022f381c9feaad6d539831e45d6433fb6ede5",
+      "exported_sha256": "fb756c2ece1eb129fffa9b4d668022f381c9feaad6d539831e45d6433fb6ede5"
+    },
+    "collection/runtime/overhead/kernel_handles.py": {
+      "source_sha256": "dbba09eb427b919a28146572d08b8de70b6683cf3a36e1ac8b4deed7dda9739c",
+      "exported_sha256": "dbba09eb427b919a28146572d08b8de70b6683cf3a36e1ac8b4deed7dda9739c"
+    },
+    "collection/runtime/overhead/ledger.py": {
+      "source_sha256": "bc82710c294d4fe2f3c067a859d1ff0e654673a933afa593dffd148b35817d83",
+      "exported_sha256": "bc82710c294d4fe2f3c067a859d1ff0e654673a933afa593dffd148b35817d83"
+    },
+    "collection/runtime/overhead/model.py": {
+      "source_sha256": "8ea7281fe287b7c6f11e2303d4c4598e94c767a87db2ca9dc52c65d880bfd7b3",
+      "exported_sha256": "8ea7281fe287b7c6f11e2303d4c4598e94c767a87db2ca9dc52c65d880bfd7b3"
+    },
+    "collection/runtime/overhead/native.py": {
+      "source_sha256": "805d4168e5f876db13908e0a3725ff390a42687a1019ac92f46ed969fbec706c",
+      "exported_sha256": "805d4168e5f876db13908e0a3725ff390a42687a1019ac92f46ed969fbec706c"
+    },
+    "collection/runtime/overhead/native_backend.py": {
+      "source_sha256": "fe13b16d49b8fe34cb18db06c045ff1e24abd5234870df027f933d158e6383ff",
+      "exported_sha256": "fe13b16d49b8fe34cb18db06c045ff1e24abd5234870df027f933d158e6383ff"
+    },
+    "collection/runtime/overhead/native_binding.py": {
+      "source_sha256": "aa271f44865334737c11f0f5c5e28882c7dbc4acadb29971a6513748077ad083",
+      "exported_sha256": "aa271f44865334737c11f0f5c5e28882c7dbc4acadb29971a6513748077ad083"
+    },
+    "collection/runtime/overhead/native_context.py": {
+      "source_sha256": "bd636afa9050aebcf496348077ad44d18f555293eabe3ff9b3251d9c811e75db",
+      "exported_sha256": "bd636afa9050aebcf496348077ad44d18f555293eabe3ff9b3251d9c811e75db"
+    },
+    "collection/runtime/overhead/native_dispatch.py": {
+      "source_sha256": "e3383333537df43f370c8bb942d2ade9ad928a9fcbf701b17e046f9d5cb6840a",
+      "exported_sha256": "e3383333537df43f370c8bb942d2ade9ad928a9fcbf701b17e046f9d5cb6840a"
+    },
+    "collection/runtime/overhead/native_observation.py": {
+      "source_sha256": "196e5ea9d37d80c060e8753a577ae257558dcaed65acd18d1ba41a4461eba282",
+      "exported_sha256": "196e5ea9d37d80c060e8753a577ae257558dcaed65acd18d1ba41a4461eba282"
+    },
+    "collection/runtime/overhead/owned_child.py": {
+      "source_sha256": "ad1fe7a863d610c786274c47e103b4445659136b68fa9fd8a98a157af24c7e73",
+      "exported_sha256": "ad1fe7a863d610c786274c47e103b4445659136b68fa9fd8a98a157af24c7e73"
+    },
+    "collection/runtime/overhead/ownership.py": {
+      "source_sha256": "45216bec8067a5ab95c6c7cf03ab8b646d5a95bb08a84a8b43624d99799b1dc5",
+      "exported_sha256": "45216bec8067a5ab95c6c7cf03ab8b646d5a95bb08a84a8b43624d99799b1dc5"
+    },
+    "collection/runtime/overhead/proc.py": {
+      "source_sha256": "612fa6b69e767898fcb036553a5a1384c4b44114a1ab0eb91825657345ecfa6e",
+      "exported_sha256": "612fa6b69e767898fcb036553a5a1384c4b44114a1ab0eb91825657345ecfa6e"
+    },
+    "collection/runtime/overhead/protected_fixture.py": {
+      "source_sha256": "d28057851b5e125c5e1b609dc433d5ff6ddcd0b18144a59d3fe3b0d7334c233c",
+      "exported_sha256": "d28057851b5e125c5e1b609dc433d5ff6ddcd0b18144a59d3fe3b0d7334c233c"
+    },
+    "collection/runtime/overhead/protected_instrumented.py": {
+      "source_sha256": "717d4b60496f26803a59f8e7377cacb112c27888189789373d977c16d0a7edca",
+      "exported_sha256": "717d4b60496f26803a59f8e7377cacb112c27888189789373d977c16d0a7edca"
+    },
+    "collection/runtime/overhead/publication.py": {
+      "source_sha256": "8cf93b56ef198eda3247d579d882b2cc0c96aac5d980ec9c65bb8e7f2d2545ea",
+      "exported_sha256": "8cf93b56ef198eda3247d579d882b2cc0c96aac5d980ec9c65bb8e7f2d2545ea"
+    },
+    "collection/runtime/overhead/readiness.py": {
+      "source_sha256": "3d5a85345e805b2e6fd0874dfc00bee030eba949dbf9e4e13ec50a7eae5a66c3",
+      "exported_sha256": "3d5a85345e805b2e6fd0874dfc00bee030eba949dbf9e4e13ec50a7eae5a66c3"
+    },
+    "collection/runtime/overhead/reference.py": {
+      "source_sha256": "50f4ac0d6b3084cbf5b2cf968c2885a393fcc920edec862fe3442900caa85647",
+      "exported_sha256": "50f4ac0d6b3084cbf5b2cf968c2885a393fcc920edec862fe3442900caa85647"
+    },
+    "collection/runtime/overhead/results.py": {
+      "source_sha256": "8a0994147002fb94f4d8ca59108b2e30e25fdbeafcabe7aa9ae790e7b9bf4819",
+      "exported_sha256": "8a0994147002fb94f4d8ca59108b2e30e25fdbeafcabe7aa9ae790e7b9bf4819"
+    },
+    "collection/runtime/overhead/simulation.py": {
+      "source_sha256": "833963f33c2208198c25f88c78770793f3c5adcb59c8caaabf3fc78e8e822c2b",
+      "exported_sha256": "833963f33c2208198c25f88c78770793f3c5adcb59c8caaabf3fc78e8e822c2b"
+    },
+    "collection/runtime/overhead/wire.py": {
+      "source_sha256": "165a7bf641fcdea6376d8a3777c8616b92c0d90c2ede2102fc961382a5a4ba35",
+      "exported_sha256": "165a7bf641fcdea6376d8a3777c8616b92c0d90c2ede2102fc961382a5a4ba35"
+    },
+    "collection/runtime/overhead_fixtures/__init__.py": {
+      "source_sha256": "a6dcac13cbf7fb9a2e81ecfe00eef0532872198ff76cf0926d74de88ba08fcc5",
+      "exported_sha256": "a6dcac13cbf7fb9a2e81ecfe00eef0532872198ff76cf0926d74de88ba08fcc5"
+    },
+    "collection/runtime/overhead_fixtures/instrumented.py": {
+      "source_sha256": "1e3293512641eed9924654250da961780b2824f67d23986436b4fdddf2dc1135",
+      "exported_sha256": "1e3293512641eed9924654250da961780b2824f67d23986436b4fdddf2dc1135"
+    },
+    "collection/runtime/overhead_fixtures/native.py": {
+      "source_sha256": "c429fdf303d978dd876337771172dc508e9f8dc361027f11741f99e1c15661ca",
+      "exported_sha256": "c429fdf303d978dd876337771172dc508e9f8dc361027f11741f99e1c15661ca"
+    }
+  }
+}

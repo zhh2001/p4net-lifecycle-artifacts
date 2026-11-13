@@ -1,0 +1,14 @@
+{
+  "interpreters": {
+    "p4net310": "environments/p4net/bin/python",
+    "p4utils310": "environments/p4utils/bin/python",
+    "tutorial310": "environments/tutorial/bin/python"
+  },
+  "artifacts": {
+    "p4net_wheel": "sources/p4net-1.8.0-py3-none-any.whl",
+    "p4utils_source": "sources/p4utils.tar.gz",
+    "tutorial_source": "sources/tutorials.tar.gz"
+  },
+  "tutorial_utils": "sources/tutorials-15d780e5ac7046aa64d64270ab0ef3852f1103f9/utils",
+  "wrapper_interpreter": "/usr/bin/python3"
+}

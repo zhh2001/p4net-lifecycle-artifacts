@@ -1,0 +1,488 @@
+{
+  "p4net": [
+    {
+      "kind": "event",
+      "level": "stages",
+      "member": "emit",
+      "module": "harness.worker",
+      "owner": "",
+      "stage": "worker.protocol"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "execute",
+      "module": "harness.worker",
+      "owner": "",
+      "stage": "worker.workflow"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "configure_host",
+      "module": "harness.settings",
+      "owner": "",
+      "stage": "task.host_settings"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "build",
+      "module": "harness.worker",
+      "owner": "",
+      "stage": "topology.specification"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "_do_start",
+      "module": "p4net.network.orchestrator",
+      "owner": "Network",
+      "stage": "network.start"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "_do_stop",
+      "module": "p4net.network.orchestrator",
+      "owner": "Network",
+      "stage": "network.stop"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "_wire_link",
+      "module": "p4net.network.orchestrator",
+      "owner": "Network",
+      "stage": "link.wire"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "compile",
+      "module": "p4net.compiler.p4c",
+      "owner": "P4Compiler",
+      "stage": "compiler.request"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "_preprocess",
+      "module": "p4net.compiler.p4c",
+      "owner": "P4Compiler",
+      "stage": "compiler.preprocess"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "_real_compile",
+      "module": "p4net.compiler.p4c",
+      "owner": "P4Compiler",
+      "stage": "compiler.build"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "_publish_cache",
+      "module": "p4net.compiler.p4c",
+      "owner": "P4Compiler",
+      "stage": "compiler.publish"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "create",
+      "module": "p4net.runtime.netns",
+      "owner": "NetworkNamespace",
+      "stage": "namespace.create"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "destroy",
+      "module": "p4net.runtime.netns",
+      "owner": "NetworkNamespace",
+      "stage": "namespace.destroy"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "exec",
+      "module": "p4net.runtime.netns",
+      "owner": "NetworkNamespace",
+      "stage": "namespace.exec"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "create",
+      "module": "p4net.runtime.link",
+      "owner": "VethPair",
+      "stage": "veth.create"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "destroy",
+      "module": "p4net.runtime.link",
+      "owner": "VethPair",
+      "stage": "veth.destroy"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "start",
+      "module": "p4net.runtime.bmv2",
+      "owner": "BMv2Switch",
+      "stage": "bmv2.launch"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "wait_until_ready",
+      "module": "p4net.runtime.bmv2",
+      "owner": "BMv2Switch",
+      "stage": "bmv2.readiness"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "stop",
+      "module": "p4net.runtime.bmv2",
+      "owner": "BMv2Switch",
+      "stage": "bmv2.stop"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "connect",
+      "module": "p4net.control.client",
+      "owner": "P4RuntimeClient",
+      "stage": "control.connect"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "_teardown",
+      "module": "p4net.control.client",
+      "owner": "P4RuntimeClient",
+      "stage": "control.disconnect"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "set_pipeline_config",
+      "module": "p4net.control.client",
+      "owner": "P4RuntimeClient",
+      "stage": "control.pipeline"
+    }
+  ],
+  "p4utils": [
+    {
+      "kind": "event",
+      "level": "stages",
+      "member": "emit",
+      "module": "harness.worker_p4utils",
+      "owner": "",
+      "stage": "worker.protocol"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "execute",
+      "module": "harness.worker_p4utils",
+      "owner": "",
+      "stage": "worker.workflow"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "configure_host",
+      "module": "harness.settings",
+      "owner": "",
+      "stage": "task.host_settings"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "configure",
+      "module": "harness.worker_p4utils",
+      "owner": "",
+      "stage": "topology.specification"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "program",
+      "module": "harness.worker_p4utils",
+      "owner": "",
+      "stage": "task.program"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "check_connectivity",
+      "module": "harness.worker_p4utils",
+      "owner": "",
+      "stage": "task.host_configuration_and_checks"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "host_command",
+      "module": "harness.worker_p4utils",
+      "owner": "",
+      "stage": "host.command.worker"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "startNetwork",
+      "module": "p4utils.mininetlib.network_API",
+      "owner": "NetworkAPI",
+      "stage": "network.start"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "stopNetwork",
+      "module": "p4utils.mininetlib.network_API",
+      "owner": "NetworkAPI",
+      "stage": "network.stop"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "cleanup",
+      "module": "p4utils.mininetlib.network_API",
+      "owner": "NetworkAPI",
+      "stage": "network.prestart_cleanup"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "compile",
+      "module": "p4utils.mininetlib.network_API",
+      "owner": "NetworkAPI",
+      "stage": "compiler.sources"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "stop",
+      "module": "p4utils.mininetlib.net",
+      "owner": "P4Mininet",
+      "stage": "network.mininet_stop"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "start",
+      "module": "p4utils.mininetlib.node",
+      "owner": "P4Switch",
+      "stage": "bmv2.launch_and_readiness"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "stop",
+      "module": "p4utils.mininetlib.node",
+      "owner": "P4Switch",
+      "stage": "bmv2.stop"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "__init__",
+      "module": "p4utils.utils.p4runtime_API.p4runtime",
+      "owner": "P4RuntimeClient",
+      "stage": "control.connect"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "set_fwd_pipe_config",
+      "module": "p4utils.utils.p4runtime_API.p4runtime",
+      "owner": "P4RuntimeClient",
+      "stage": "control.pipeline"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "tear_down",
+      "module": "p4utils.utils.p4runtime_API.p4runtime",
+      "owner": "P4RuntimeClient",
+      "stage": "control.disconnect"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "build",
+      "module": "mininet.net",
+      "owner": "Mininet",
+      "stage": "network.mininet_build"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "start",
+      "module": "mininet.net",
+      "owner": "Mininet",
+      "stage": "network.mininet_start"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "addLink",
+      "module": "mininet.net",
+      "owner": "Mininet",
+      "stage": "link.wire"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "popen",
+      "module": "mininet.node",
+      "owner": "Node",
+      "stage": "process.launch.mininet_popen"
+    }
+  ],
+  "tutorial-components": [
+    {
+      "kind": "event",
+      "level": "stages",
+      "member": "emit",
+      "module": "harness.worker_tutorial",
+      "owner": "",
+      "stage": "worker.protocol"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "execute",
+      "module": "harness.worker_tutorial",
+      "owner": "",
+      "stage": "worker.workflow"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "configure_host",
+      "module": "harness.settings",
+      "owner": "",
+      "stage": "task.host_settings"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "compile_task",
+      "module": "harness.worker_tutorial",
+      "owner": "",
+      "stage": "compiler.build"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "populate_network",
+      "module": "harness.worker_tutorial",
+      "owner": "",
+      "stage": "network.population"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "configure_task",
+      "module": "harness.worker_tutorial",
+      "owner": "",
+      "stage": "task.table_and_neighbor_configuration"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "start",
+      "module": "p4runtime_switch",
+      "owner": "P4RuntimeSwitch",
+      "stage": "bmv2.launch_and_readiness"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "check_switch_started",
+      "module": "p4runtime_switch",
+      "owner": "P4RuntimeSwitch",
+      "stage": "bmv2.readiness"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "stop",
+      "module": "p4_mininet",
+      "owner": "P4Switch",
+      "stage": "bmv2.stop"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "MasterArbitrationUpdate",
+      "module": "p4runtime_lib.switch",
+      "owner": "SwitchConnection",
+      "stage": "control.arbitration"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "SetForwardingPipelineConfig",
+      "module": "p4runtime_lib.switch",
+      "owner": "SwitchConnection",
+      "stage": "control.pipeline"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "shutdown",
+      "module": "p4runtime_lib.switch",
+      "owner": "SwitchConnection",
+      "stage": "control.stream_shutdown"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "build",
+      "module": "mininet.net",
+      "owner": "Mininet",
+      "stage": "network.mininet_build"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "start",
+      "module": "mininet.net",
+      "owner": "Mininet",
+      "stage": "network.mininet_start"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "addLink",
+      "module": "mininet.net",
+      "owner": "Mininet",
+      "stage": "link.wire"
+    },
+    {
+      "kind": "span",
+      "level": "stages",
+      "member": "stop",
+      "module": "mininet.net",
+      "owner": "Mininet",
+      "stage": "network.stop"
+    },
+    {
+      "kind": "span",
+      "level": "detail",
+      "member": "pexec",
+      "module": "mininet.node",
+      "owner": "Node",
+      "stage": "host.command"
+    }
+  ]
+}

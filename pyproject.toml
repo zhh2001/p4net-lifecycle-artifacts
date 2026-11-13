@@ -15,6 +15,7 @@ dependencies = []
 [project.optional-dependencies]
 plots = ["matplotlib>=3.6"]
 dev = ["pytest>=8", "ruff>=0.9", "mypy>=1.13", "build>=1.2"]
+collection-tests = ["p4net==1.8.0", "p4runtime==1.6.0"]
 
 [project.scripts]
 p4net-lifecycle = "lifecycle_artifacts.__main__:main"
@@ -26,7 +27,7 @@ Repository = "https://github.com/zhh2001/p4net-lifecycle-artifacts"
 packages = ["src/lifecycle_artifacts"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "data", "protocol", "docs", "figures", "README.md", "LICENSE", "DATA_LICENSE", "CITATION.cff", "pyproject.toml"]
+include = ["src", "tests", "collection", "data", "protocol", "docs", "figures", "README.md", "LICENSE", "DATA_LICENSE", "CITATION.cff", "pyproject.toml"]
 
 [tool.ruff]
 line-length = 100
@@ -36,7 +37,8 @@ target-version = "py310"
 select = ["E", "F", "I", "UP", "B", "RUF"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["tests", "collection/tests"]
+pythonpath = ["collection", "collection/runtime", "collection/tests"]
 
 [tool.mypy]
 python_version = "3.10"
@@ -45,4 +47,8 @@ files = ["src/lifecycle_artifacts"]
 
 [[tool.mypy.overrides]]
 module = ["matplotlib", "matplotlib.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["p4", "p4.*", "p4net", "p4net.*"]
 ignore_missing_imports = true

@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+from harness.bmv2_launcher import main
+
+main()

@@ -1,0 +1,14 @@
+googleapis-common-protos==1.73.0
+grpcio==1.44.0
+ipaddr==2.2.0
+ipaddress==1.0.23
+networkx==3.4.2
+p4runtime==1.5.0
+p4utils @ https://codeload.github.com/nsg-ethz/p4-utils/tar.gz/83b118bbae530b31cc74e7fa32f9174f7c0a1184#sha256=6d5e7e7e9160d0d47d49e149ed66923e8357c5a4e8a5ac5080906898adcdbeb2
+packaging==26.3
+pip==23.0.1
+protobuf==3.20.3
+psutil==7.2.2
+scapy==2.8.0
+setuptools==79.0.1
+six==1.17.0

@@ -46,7 +46,7 @@ Plotting requires a locally installed Times New Roman font. If font discovery ca
 - `docs/`: data schema, environment, and reproduction details.
 - `tests/`: record coverage, numerical regression, and statistical edge cases.
 
-This export provides the offline analysis path. Fresh collection entry points are being prepared separately. [The p4net SDK](https://github.com/zhh2001/p4net) remains in its own repository.
+`collection/` provides [fresh collection entry points](docs/collection.md), pinned worker requirements, and boundary-only native qualification. The offline analysis requires neither root nor the native toolchain. [The p4net SDK](https://github.com/zhh2001/p4net) remains in its own repository.
 
 ## Citation and license
 

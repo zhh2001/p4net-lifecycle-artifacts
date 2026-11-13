@@ -1,0 +1,11 @@
+googleapis-common-protos==1.76.0
+grpcio==1.85.0
+p4net==1.8.0
+p4runtime==1.6.0
+pip==23.0.1
+prompt_toolkit==3.0.53
+protobuf==7.36.2
+pyroute2==0.9.7
+setuptools==79.0.1
+typing_extensions==4.16.0
+wcwidth==0.9.4
