@@ -358,14 +358,25 @@ class CalibrationIsolationTests(unittest.TestCase):
             os.fstat(descriptor)
 
     def test_environment_helper_preserves_native_launcher_settings_and_removes_ovs_options(self):
+        root = self.base.resolve()
+        executable = root / "usr/libexec/gnutrue"
+        executable.parent.mkdir(parents=True)
+        executable.write_text("launcher fixture\n")
+        alias = root / "usr/bin/true"
+        alias.parent.mkdir()
+        alias.symlink_to("../libexec/gnutrue")
+        selected = root / "bin/simple_switch_grpc"
+        selected.parent.mkdir()
+        selected.symlink_to("../usr/bin/true")
         with (
             patch.dict(isolation.os.environ, {"PATH": "/bin", "OVS_OPTION": "unsafe"}, clear=True),
-            patch.object(isolation.shutil, "which", return_value="/bin/true"),
+            patch.object(isolation.shutil, "which", return_value=str(selected)) as which,
         ):
             environment = isolation.environment_for(self.manifest)
+        which.assert_called_once_with("simple_switch_grpc", path="/bin")
         self.assertNotIn("OVS_OPTION", environment)
         self.assertEqual(environment["P4NET_STUDY_RUN_DIR"], self.manifest["output_dir"])
-        self.assertEqual(environment["P4NET_STUDY_BMV2_REAL"], "/usr/bin/true")
+        self.assertEqual(environment["P4NET_STUDY_BMV2_REAL"], str(executable))
         self.assertEqual(environment["PYTHONPATH"], str(isolation.PAPER))
         self.assertEqual(environment["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"], "python")
         self.assertEqual(
